@@ -1,0 +1,1300 @@
+[Tue May 12 11:37:36 2026] PHP 8.3.6 Development Server (http://localhost:8000) started
+[Tue May 12 11:37:56 2026] 127.0.0.1:56490 Accepted
+[Tue May 12 11:37:56 2026] 127.0.0.1:56490 [200]: HEAD /
+[Tue May 12 11:37:56 2026] 127.0.0.1:56490 Closing
+[Tue May 12 11:38:34 2026] 127.0.0.1:38410 Accepted
+[Tue May 12 11:38:34 2026] 127.0.0.1:38410 [200]: GET /
+[Tue May 12 11:38:34 2026] 127.0.0.1:38410 Closing
+[Tue May 12 11:38:35 2026] 127.0.0.1:38422 Accepted
+[Tue May 12 11:38:35 2026] 127.0.0.1:38436 Accepted
+[Tue May 12 11:38:35 2026] 127.0.0.1:38422 [200]: GET /app.js
+[Tue May 12 11:38:35 2026] 127.0.0.1:38422 Closing
+[Tue May 12 11:38:35 2026] 127.0.0.1:38436 [200]: GET /styles.css
+[Tue May 12 11:38:35 2026] 127.0.0.1:38436 Closing
+[Tue May 12 11:39:33 2026] 127.0.0.1:58332 Accepted
+[Tue May 12 11:39:33 2026] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: p.pseudo in /home/khadijatou/SafeSpace/public/feed.php:5
+Stack trace:
+#0 /home/khadijatou/SafeSpace/public/feed.php(5): PDO->query()
+#1 {main}
+  thrown in /home/khadijatou/SafeSpace/public/feed.php on line 5
+[Tue May 12 11:39:33 2026] 127.0.0.1:58332 [500]: GET /feed.php - Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: p.pseudo in /home/khadijatou/SafeSpace/public/feed.php:5
+Stack trace:
+#0 /home/khadijatou/SafeSpace/public/feed.php(5): PDO->query()
+#1 {main}
+  thrown in /home/khadijatou/SafeSpace/public/feed.php on line 5
+[Tue May 12 11:39:33 2026] 127.0.0.1:58332 Closing
+[Tue May 12 11:39:33 2026] 127.0.0.1:58348 Accepted
+[Tue May 12 11:39:33 2026] 127.0.0.1:58348 [200]: GET /styles.css
+[Tue May 12 11:39:33 2026] 127.0.0.1:58348 Closing
+[Tue May 12 11:39:36 2026] 127.0.0.1:58362 Accepted
+[Tue May 12 11:39:36 2026] 127.0.0.1:58362 [200]: GET /share.php
+[Tue May 12 11:39:36 2026] 127.0.0.1:58362 Closing
+[Tue May 12 11:39:37 2026] 127.0.0.1:58372 Accepted
+[Tue May 12 11:39:37 2026] 127.0.0.1:58372 [200]: GET /app.js
+[Tue May 12 11:39:37 2026] 127.0.0.1:58372 Closing
+[Tue May 12 11:39:37 2026] 127.0.0.1:58374 Accepted
+[Tue May 12 11:39:37 2026] 127.0.0.1:58374 [200]: GET /styles.css
+[Tue May 12 11:39:37 2026] 127.0.0.1:58374 Closing
+[Tue May 12 11:39:53 2026] 127.0.0.1:58932 Accepted
+[Tue May 12 11:39:53 2026] 127.0.0.1:58932 [200]: GET /inspiration.php
+[Tue May 12 11:39:53 2026] 127.0.0.1:58932 Closing
+[Tue May 12 11:39:53 2026] 127.0.0.1:58946 Accepted
+[Tue May 12 11:39:53 2026] 127.0.0.1:58946 [200]: GET /styles.css
+[Tue May 12 11:39:53 2026] 127.0.0.1:58946 Closing
+[Tue May 12 11:39:53 2026] 127.0.0.1:58952 Accepted
+[Tue May 12 11:39:53 2026] 127.0.0.1:58952 [200]: GET /app.js
+[Tue May 12 11:39:53 2026] 127.0.0.1:58952 Closing
+[Tue May 12 11:40:14 2026] 127.0.0.1:54314 Accepted
+[Tue May 12 11:40:14 2026] 127.0.0.1:54314 [200]: GET /login.php
+[Tue May 12 11:40:14 2026] 127.0.0.1:54314 Closing
+[Tue May 12 11:40:14 2026] 127.0.0.1:54320 Accepted
+[Tue May 12 11:40:14 2026] 127.0.0.1:54320 [200]: GET /styles.css
+[Tue May 12 11:40:14 2026] 127.0.0.1:54320 Closing
+[Tue May 12 11:40:14 2026] 127.0.0.1:54328 Accepted
+[Tue May 12 11:40:14 2026] 127.0.0.1:54328 [200]: GET /app.js
+[Tue May 12 11:40:14 2026] 127.0.0.1:54328 Closing
+[Tue May 12 11:40:45 2026] 127.0.0.1:35738 Accepted
+[Tue May 12 11:40:45 2026] 127.0.0.1:35738 [200]: POST /login.php
+[Tue May 12 11:40:45 2026] 127.0.0.1:35738 Closing
+[Tue May 12 11:40:45 2026] 127.0.0.1:35744 Accepted
+[Tue May 12 11:40:45 2026] 127.0.0.1:35744 [200]: GET /styles.css
+[Tue May 12 11:40:45 2026] 127.0.0.1:35744 Closing
+[Tue May 12 11:40:45 2026] 127.0.0.1:35754 Accepted
+[Tue May 12 11:40:45 2026] 127.0.0.1:35754 [200]: GET /app.js
+[Tue May 12 11:40:45 2026] 127.0.0.1:35754 Closing
+[Tue May 12 11:41:15 2026] 127.0.0.1:37962 Accepted
+[Tue May 12 11:41:15 2026] 127.0.0.1:37962 [200]: GET /register.php
+[Tue May 12 11:41:15 2026] 127.0.0.1:37962 Closing
+[Tue May 12 11:41:15 2026] 127.0.0.1:57586 Accepted
+[Tue May 12 11:41:15 2026] 127.0.0.1:57586 [200]: GET /styles.css
+[Tue May 12 11:41:15 2026] 127.0.0.1:57586 Closing
+[Tue May 12 11:41:15 2026] 127.0.0.1:57598 Accepted
+[Tue May 12 11:41:15 2026] 127.0.0.1:57598 [200]: GET /app.js
+[Tue May 12 11:41:15 2026] 127.0.0.1:57598 Closing
+[Tue May 12 11:41:45 2026] 127.0.0.1:51564 Accepted
+[Tue May 12 11:41:46 2026] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 19 CHECK constraint failed: role IN ('member', 'creator', 'admin') in /home/khadijatou/SafeSpace/public/register.php:22
+Stack trace:
+#0 /home/khadijatou/SafeSpace/public/register.php(22): PDOStatement->execute()
+#1 {main}
+  thrown in /home/khadijatou/SafeSpace/public/register.php on line 22
+[Tue May 12 11:41:46 2026] 127.0.0.1:51564 [500]: POST /register.php - Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 19 CHECK constraint failed: role IN ('member', 'creator', 'admin') in /home/khadijatou/SafeSpace/public/register.php:22
+Stack trace:
+#0 /home/khadijatou/SafeSpace/public/register.php(22): PDOStatement->execute()
+#1 {main}
+  thrown in /home/khadijatou/SafeSpace/public/register.php on line 22
+[Tue May 12 11:41:46 2026] 127.0.0.1:51564 Closing
+[Tue May 12 11:41:46 2026] 127.0.0.1:51578 Accepted
+[Tue May 12 11:41:46 2026] 127.0.0.1:51578 [200]: GET /styles.css
+[Tue May 12 11:41:46 2026] 127.0.0.1:51578 Closing
+[Tue May 12 11:42:00 2026] 127.0.0.1:60324 Accepted
+[Tue May 12 11:42:00 2026] 127.0.0.1:60324 [200]: GET /index.php
+[Tue May 12 11:42:00 2026] 127.0.0.1:60324 Closing
+[Tue May 12 11:42:00 2026] 127.0.0.1:60330 Accepted
+[Tue May 12 11:42:00 2026] 127.0.0.1:60330 [200]: GET /styles.css
+[Tue May 12 11:42:00 2026] 127.0.0.1:60330 Closing
+[Tue May 12 11:42:01 2026] 127.0.0.1:60332 Accepted
+[Tue May 12 11:42:01 2026] 127.0.0.1:60332 [200]: GET /app.js
+[Tue May 12 11:42:01 2026] 127.0.0.1:60332 Closing
+[Tue May 12 11:42:10 2026] 127.0.0.1:43128 Accepted
+[Tue May 12 11:42:10 2026] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: p.pseudo in /home/khadijatou/SafeSpace/public/feed.php:5
+Stack trace:
+#0 /home/khadijatou/SafeSpace/public/feed.php(5): PDO->query()
+#1 {main}
+  thrown in /home/khadijatou/SafeSpace/public/feed.php on line 5
+[Tue May 12 11:42:10 2026] 127.0.0.1:43128 [500]: GET /feed.php - Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: p.pseudo in /home/khadijatou/SafeSpace/public/feed.php:5
+Stack trace:
+#0 /home/khadijatou/SafeSpace/public/feed.php(5): PDO->query()
+#1 {main}
+  thrown in /home/khadijatou/SafeSpace/public/feed.php on line 5
+[Tue May 12 11:42:10 2026] 127.0.0.1:43128 Closing
+[Tue May 12 11:42:10 2026] 127.0.0.1:43136 Accepted
+[Tue May 12 11:42:10 2026] 127.0.0.1:43136 [200]: GET /styles.css
+[Tue May 12 11:42:10 2026] 127.0.0.1:43136 Closing
+[Tue May 12 11:42:12 2026] 127.0.0.1:43150 Accepted
+[Tue May 12 11:42:12 2026] 127.0.0.1:43150 [200]: GET /share.php
+[Tue May 12 11:42:12 2026] 127.0.0.1:43150 Closing
+[Tue May 12 11:42:12 2026] 127.0.0.1:43162 Accepted
+[Tue May 12 11:42:12 2026] 127.0.0.1:43162 [200]: GET /styles.css
+[Tue May 12 11:42:12 2026] 127.0.0.1:43162 Closing
+[Tue May 12 11:42:12 2026] 127.0.0.1:43166 Accepted
+[Tue May 12 11:42:12 2026] 127.0.0.1:43166 [200]: GET /app.js
+[Tue May 12 11:42:12 2026] 127.0.0.1:43166 Closing
+[Tue May 12 11:42:16 2026] 127.0.0.1:60816 Accepted
+[Tue May 12 11:42:16 2026] 127.0.0.1:60816 [200]: GET /inspiration.php
+[Tue May 12 11:42:16 2026] 127.0.0.1:60816 Closing
+[Tue May 12 11:42:16 2026] 127.0.0.1:60824 Accepted
+[Tue May 12 11:42:16 2026] 127.0.0.1:60824 [200]: GET /styles.css
+[Tue May 12 11:42:16 2026] 127.0.0.1:60824 Closing
+[Tue May 12 11:42:16 2026] 127.0.0.1:60826 Accepted
+[Tue May 12 11:42:16 2026] 127.0.0.1:60826 [200]: GET /app.js
+[Tue May 12 11:42:16 2026] 127.0.0.1:60826 Closing
+[Tue May 12 11:42:17 2026] 127.0.0.1:60834 Accepted
+[Tue May 12 11:42:17 2026] 127.0.0.1:60834 [200]: GET /login.php
+[Tue May 12 11:42:17 2026] 127.0.0.1:60834 Closing
+[Tue May 12 11:42:17 2026] 127.0.0.1:60838 Accepted
+[Tue May 12 11:42:17 2026] 127.0.0.1:60838 [200]: GET /app.js
+[Tue May 12 11:42:17 2026] 127.0.0.1:60854 Accepted
+[Tue May 12 11:42:17 2026] 127.0.0.1:60854 [200]: GET /styles.css
+[Tue May 12 11:42:17 2026] 127.0.0.1:60838 Closing
+[Tue May 12 11:42:17 2026] 127.0.0.1:60854 Closing
+[Tue May 12 11:42:22 2026] 127.0.0.1:60866 Accepted
+[Tue May 12 11:42:22 2026] 127.0.0.1:60866 [200]: GET /index.php
+[Tue May 12 11:42:22 2026] 127.0.0.1:60866 Closing
+[Tue May 12 11:42:22 2026] 127.0.0.1:60874 Accepted
+[Tue May 12 11:42:22 2026] 127.0.0.1:60874 [200]: GET /app.js
+[Tue May 12 11:42:22 2026] 127.0.0.1:60874 Closing
+[Tue May 12 11:42:22 2026] 127.0.0.1:60890 Accepted
+[Tue May 12 11:42:22 2026] 127.0.0.1:60890 [200]: GET /styles.css
+[Tue May 12 11:42:22 2026] 127.0.0.1:60890 Closing
+[Tue May 12 11:42:56 2026] 127.0.0.1:39478 Accepted
+[Tue May 12 11:42:56 2026] 127.0.0.1:39478 [200]: GET /register.php
+[Tue May 12 11:42:56 2026] 127.0.0.1:39478 Closing
+[Tue May 12 11:42:56 2026] 127.0.0.1:39492 Accepted
+[Tue May 12 11:42:56 2026] 127.0.0.1:39492 [200]: GET /styles.css
+[Tue May 12 11:42:56 2026] 127.0.0.1:39492 Closing
+[Tue May 12 11:42:56 2026] 127.0.0.1:39506 Accepted
+[Tue May 12 11:42:56 2026] 127.0.0.1:39506 [200]: GET /app.js
+[Tue May 12 11:42:56 2026] 127.0.0.1:39506 Closing
+[Tue May 12 11:43:03 2026] 127.0.0.1:53840 Accepted
+[Tue May 12 11:43:03 2026] 127.0.0.1:53840 [200]: GET /login.php
+[Tue May 12 11:43:03 2026] 127.0.0.1:53840 Closing
+[Tue May 12 11:43:03 2026] 127.0.0.1:53846 Accepted
+[Tue May 12 11:43:03 2026] 127.0.0.1:53846 [200]: GET /app.js
+[Tue May 12 11:43:03 2026] 127.0.0.1:53846 Closing
+[Tue May 12 11:43:03 2026] 127.0.0.1:53850 Accepted
+[Tue May 12 11:43:03 2026] 127.0.0.1:53850 [200]: GET /styles.css
+[Tue May 12 11:43:03 2026] 127.0.0.1:53850 Closing
+[Tue May 12 11:43:08 2026] 127.0.0.1:53866 Accepted
+[Tue May 12 11:43:08 2026] 127.0.0.1:53866 [200]: GET /inspiration.php
+[Tue May 12 11:43:08 2026] 127.0.0.1:53866 Closing
+[Tue May 12 11:43:08 2026] 127.0.0.1:53878 Accepted
+[Tue May 12 11:43:08 2026] 127.0.0.1:53878 [200]: GET /styles.css
+[Tue May 12 11:43:08 2026] 127.0.0.1:53878 Closing
+[Tue May 12 11:43:08 2026] 127.0.0.1:53892 Accepted
+[Tue May 12 11:43:08 2026] 127.0.0.1:53892 [200]: GET /app.js
+[Tue May 12 11:43:08 2026] 127.0.0.1:53892 Closing
+[Tue May 12 11:43:11 2026] 127.0.0.1:53900 Accepted
+[Tue May 12 11:43:11 2026] 127.0.0.1:53900 [200]: GET /index.php
+[Tue May 12 11:43:11 2026] 127.0.0.1:53900 Closing
+[Tue May 12 11:43:11 2026] 127.0.0.1:53906 Accepted
+[Tue May 12 11:43:11 2026] 127.0.0.1:53906 [200]: GET /styles.css
+[Tue May 12 11:43:11 2026] 127.0.0.1:53906 Closing
+[Tue May 12 11:43:11 2026] 127.0.0.1:53918 Accepted
+[Tue May 12 11:43:11 2026] 127.0.0.1:53918 [200]: GET /app.js
+[Tue May 12 11:43:11 2026] 127.0.0.1:53918 Closing
+[Tue May 12 11:43:41 2026] 127.0.0.1:54772 Accepted
+[Tue May 12 11:43:41 2026] 127.0.0.1:54772 [200]: GET /index.php
+[Tue May 12 11:43:41 2026] 127.0.0.1:54772 Closing
+[Tue May 12 11:43:41 2026] 127.0.0.1:54788 Accepted
+[Tue May 12 11:43:41 2026] 127.0.0.1:54788 [200]: GET /styles.css
+[Tue May 12 11:43:41 2026] 127.0.0.1:54788 Closing
+[Tue May 12 11:43:41 2026] 127.0.0.1:54794 Accepted
+[Tue May 12 11:43:41 2026] 127.0.0.1:54794 [200]: GET /app.js
+[Tue May 12 11:43:41 2026] 127.0.0.1:54794 Closing
+[Tue May 12 11:43:42 2026] 127.0.0.1:54800 Accepted
+[Tue May 12 11:43:42 2026] 127.0.0.1:54800 [404]: GET /favicon.ico - No such file or directory
+[Tue May 12 11:43:42 2026] 127.0.0.1:54800 Closing
+[Tue May 12 11:44:06 2026] 127.0.0.1:57536 Accepted
+[Tue May 12 11:44:06 2026] 127.0.0.1:57536 [200]: GET /index.php
+[Tue May 12 11:44:06 2026] 127.0.0.1:57536 Closing
+[Tue May 12 11:44:06 2026] 127.0.0.1:57548 Accepted
+[Tue May 12 11:44:06 2026] 127.0.0.1:57548 [200]: GET /styles.css
+[Tue May 12 11:44:06 2026] 127.0.0.1:57548 Closing
+[Tue May 12 11:44:06 2026] 127.0.0.1:57556 Accepted
+[Tue May 12 11:44:06 2026] 127.0.0.1:57556 [200]: GET /app.js
+[Tue May 12 11:44:06 2026] 127.0.0.1:57556 Closing
+[Tue May 12 11:44:09 2026] 127.0.0.1:57564 Accepted
+[Tue May 12 11:44:09 2026] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: p.pseudo in /home/khadijatou/SafeSpace/public/feed.php:5
+Stack trace:
+#0 /home/khadijatou/SafeSpace/public/feed.php(5): PDO->query()
+#1 {main}
+  thrown in /home/khadijatou/SafeSpace/public/feed.php on line 5
+[Tue May 12 11:44:09 2026] 127.0.0.1:57564 [500]: GET /feed.php - Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: p.pseudo in /home/khadijatou/SafeSpace/public/feed.php:5
+Stack trace:
+#0 /home/khadijatou/SafeSpace/public/feed.php(5): PDO->query()
+#1 {main}
+  thrown in /home/khadijatou/SafeSpace/public/feed.php on line 5
+[Tue May 12 11:44:09 2026] 127.0.0.1:57564 Closing
+[Tue May 12 11:44:09 2026] 127.0.0.1:57580 Accepted
+[Tue May 12 11:44:09 2026] 127.0.0.1:57580 [200]: GET /styles.css
+[Tue May 12 11:44:09 2026] 127.0.0.1:57580 Closing
+[Tue May 12 11:44:11 2026] 127.0.0.1:44582 Accepted
+[Tue May 12 11:44:12 2026] 127.0.0.1:44582 [200]: GET /share.php
+[Tue May 12 11:44:12 2026] 127.0.0.1:44582 Closing
+[Tue May 12 11:44:12 2026] 127.0.0.1:44584 Accepted
+[Tue May 12 11:44:12 2026] 127.0.0.1:44584 [200]: GET /styles.css
+[Tue May 12 11:44:12 2026] 127.0.0.1:44584 Closing
+[Tue May 12 11:44:12 2026] 127.0.0.1:44588 Accepted
+[Tue May 12 11:44:12 2026] 127.0.0.1:44588 [200]: GET /app.js
+[Tue May 12 11:44:12 2026] 127.0.0.1:44588 Closing
+[Tue May 12 11:44:14 2026] 127.0.0.1:44604 Accepted
+[Tue May 12 11:44:14 2026] 127.0.0.1:44604 [200]: GET /inspiration.php
+[Tue May 12 11:44:14 2026] 127.0.0.1:44604 Closing
+[Tue May 12 11:44:14 2026] 127.0.0.1:44612 Accepted
+[Tue May 12 11:44:14 2026] 127.0.0.1:44612 [200]: GET /styles.css
+[Tue May 12 11:44:14 2026] 127.0.0.1:44612 Closing
+[Tue May 12 11:44:14 2026] 127.0.0.1:44618 Accepted
+[Tue May 12 11:44:14 2026] 127.0.0.1:44618 [200]: GET /app.js
+[Tue May 12 11:44:14 2026] 127.0.0.1:44618 Closing
+[Tue May 12 11:44:16 2026] 127.0.0.1:44632 Accepted
+[Tue May 12 11:44:17 2026] 127.0.0.1:44632 [200]: GET /login.php
+[Tue May 12 11:44:17 2026] 127.0.0.1:44632 Closing
+[Tue May 12 11:44:17 2026] 127.0.0.1:44648 Accepted
+[Tue May 12 11:44:17 2026] 127.0.0.1:44648 [200]: GET /styles.css
+[Tue May 12 11:44:17 2026] 127.0.0.1:44648 Closing
+[Tue May 12 11:44:17 2026] 127.0.0.1:44662 Accepted
+[Tue May 12 11:44:17 2026] 127.0.0.1:44662 [200]: GET /app.js
+[Tue May 12 11:44:17 2026] 127.0.0.1:44662 Closing
+[Tue May 12 11:44:24 2026] 127.0.0.1:52034 Accepted
+[Tue May 12 11:44:24 2026] 127.0.0.1:52034 [200]: POST /login.php
+[Tue May 12 11:44:24 2026] 127.0.0.1:52034 Closing
+[Tue May 12 11:44:24 2026] 127.0.0.1:52046 Accepted
+[Tue May 12 11:44:24 2026] 127.0.0.1:52046 [200]: GET /app.js
+[Tue May 12 11:44:24 2026] 127.0.0.1:52046 Closing
+[Tue May 12 11:44:24 2026] 127.0.0.1:52056 Accepted
+[Tue May 12 11:44:24 2026] 127.0.0.1:52056 [200]: GET /styles.css
+[Tue May 12 11:44:24 2026] 127.0.0.1:52056 Closing
+[Tue May 12 11:44:32 2026] 127.0.0.1:33326 Accepted
+[Tue May 12 11:44:32 2026] 127.0.0.1:33326 [200]: GET /register.php
+[Tue May 12 11:44:32 2026] 127.0.0.1:33326 Closing
+[Tue May 12 11:44:32 2026] 127.0.0.1:33330 Accepted
+[Tue May 12 11:44:32 2026] 127.0.0.1:33330 [200]: GET /styles.css
+[Tue May 12 11:44:32 2026] 127.0.0.1:33330 Closing
+[Tue May 12 11:44:32 2026] 127.0.0.1:33332 Accepted
+[Tue May 12 11:44:32 2026] 127.0.0.1:33332 [200]: GET /app.js
+[Tue May 12 11:44:32 2026] 127.0.0.1:33332 Closing
+[Tue May 12 11:44:42 2026] 127.0.0.1:35226 Accepted
+[Tue May 12 11:44:42 2026] 127.0.0.1:35226 [200]: GET /index.php
+[Tue May 12 11:44:42 2026] 127.0.0.1:35226 Closing
+[Tue May 12 11:44:42 2026] 127.0.0.1:35236 Accepted
+[Tue May 12 11:44:42 2026] 127.0.0.1:35236 [200]: GET /styles.css
+[Tue May 12 11:44:42 2026] 127.0.0.1:35236 Closing
+[Tue May 12 11:44:42 2026] 127.0.0.1:35250 Accepted
+[Tue May 12 11:44:42 2026] 127.0.0.1:35250 [200]: GET /app.js
+[Tue May 12 11:44:42 2026] 127.0.0.1:35250 Closing
+[Tue May 12 11:48:08 2026] 127.0.0.1:59268 Accepted
+[Tue May 12 11:48:08 2026] 127.0.0.1:59280 Accepted
+[Tue May 12 11:48:09 2026] 127.0.0.1:59268 [200]: GET /index.php
+[Tue May 12 11:48:09 2026] 127.0.0.1:59268 Closing
+[Tue May 12 11:48:09 2026] 127.0.0.1:59280 [200]: GET /styles.css
+[Tue May 12 11:48:09 2026] 127.0.0.1:59286 Accepted
+[Tue May 12 11:48:09 2026] 127.0.0.1:59280 Closing
+[Tue May 12 11:48:09 2026] 127.0.0.1:59286 [200]: GET /app.js
+[Tue May 12 11:48:09 2026] 127.0.0.1:59286 Closing
+[Tue May 12 11:48:11 2026] 127.0.0.1:52422 Accepted
+[Tue May 12 11:48:11 2026] 127.0.0.1:52428 Accepted
+[Tue May 12 11:48:11 2026] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: p.pseudo in /home/khadijatou/SafeSpace/public/feed.php:5
+Stack trace:
+#0 /home/khadijatou/SafeSpace/public/feed.php(5): PDO->query()
+#1 {main}
+  thrown in /home/khadijatou/SafeSpace/public/feed.php on line 5
+[Tue May 12 11:48:11 2026] 127.0.0.1:52422 [500]: GET /feed.php - Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: p.pseudo in /home/khadijatou/SafeSpace/public/feed.php:5
+Stack trace:
+#0 /home/khadijatou/SafeSpace/public/feed.php(5): PDO->query()
+#1 {main}
+  thrown in /home/khadijatou/SafeSpace/public/feed.php on line 5
+[Tue May 12 11:48:11 2026] 127.0.0.1:52422 Closing
+[Tue May 12 11:48:11 2026] 127.0.0.1:52428 [200]: GET /styles.css
+[Tue May 12 11:48:11 2026] 127.0.0.1:52428 Closing
+[Tue May 12 11:48:13 2026] 127.0.0.1:52432 Accepted
+[Tue May 12 11:48:14 2026] 127.0.0.1:52432 [200]: GET /share.php
+[Tue May 12 11:48:14 2026] 127.0.0.1:52432 Closing
+[Tue May 12 11:48:14 2026] 127.0.0.1:52442 Accepted
+[Tue May 12 11:48:14 2026] 127.0.0.1:52442 [200]: GET /styles.css
+[Tue May 12 11:48:14 2026] 127.0.0.1:52442 Closing
+[Tue May 12 11:48:14 2026] 127.0.0.1:52452 Accepted
+[Tue May 12 11:48:14 2026] 127.0.0.1:52452 [200]: GET /app.js
+[Tue May 12 11:48:14 2026] 127.0.0.1:52452 Closing
+[Tue May 12 11:48:15 2026] 127.0.0.1:52460 Accepted
+[Tue May 12 11:48:16 2026] 127.0.0.1:52460 [200]: GET /inspiration.php
+[Tue May 12 11:48:16 2026] 127.0.0.1:52460 Closing
+[Tue May 12 11:48:16 2026] 127.0.0.1:52474 Accepted
+[Tue May 12 11:48:16 2026] 127.0.0.1:52474 [200]: GET /styles.css
+[Tue May 12 11:48:16 2026] 127.0.0.1:52474 Closing
+[Tue May 12 11:48:16 2026] 127.0.0.1:52478 Accepted
+[Tue May 12 11:48:16 2026] 127.0.0.1:52478 [200]: GET /app.js
+[Tue May 12 11:48:16 2026] 127.0.0.1:52478 Closing
+[Tue May 12 11:48:18 2026] 127.0.0.1:52488 Accepted
+[Tue May 12 11:48:18 2026] 127.0.0.1:52488 [200]: GET /login.php
+[Tue May 12 11:48:18 2026] 127.0.0.1:52488 Closing
+[Tue May 12 11:48:18 2026] 127.0.0.1:52500 Accepted
+[Tue May 12 11:48:18 2026] 127.0.0.1:52500 [200]: GET /styles.css
+[Tue May 12 11:48:18 2026] 127.0.0.1:52500 Closing
+[Tue May 12 11:48:19 2026] 127.0.0.1:52514 Accepted
+[Tue May 12 11:48:19 2026] 127.0.0.1:52514 [200]: GET /app.js
+[Tue May 12 11:48:19 2026] 127.0.0.1:52514 Closing
+[Tue May 12 11:48:21 2026] 127.0.0.1:56352 Accepted
+[Tue May 12 11:48:21 2026] 127.0.0.1:56352 [200]: GET /register.php
+[Tue May 12 11:48:21 2026] 127.0.0.1:56352 Closing
+[Tue May 12 11:48:22 2026] 127.0.0.1:56354 Accepted
+[Tue May 12 11:48:22 2026] 127.0.0.1:56354 [200]: GET /styles.css
+[Tue May 12 11:48:22 2026] 127.0.0.1:56354 Closing
+[Tue May 12 11:48:22 2026] 127.0.0.1:56360 Accepted
+[Tue May 12 11:48:22 2026] 127.0.0.1:56360 [200]: GET /app.js
+[Tue May 12 11:48:22 2026] 127.0.0.1:56360 Closing
+[Tue May 12 11:48:42 2026] 127.0.0.1:56188 Accepted
+[Tue May 12 11:48:42 2026] 127.0.0.1:56188 [200]: GET /register.php
+[Tue May 12 11:48:42 2026] 127.0.0.1:56188 Closing
+[Tue May 12 11:48:43 2026] 127.0.0.1:56198 Accepted
+[Tue May 12 11:48:43 2026] 127.0.0.1:56204 Accepted
+[Tue May 12 11:48:43 2026] 127.0.0.1:56198 [200]: GET /styles.css
+[Tue May 12 11:48:43 2026] 127.0.0.1:56204 [200]: GET /app.js
+[Tue May 12 11:48:43 2026] 127.0.0.1:56198 Closing
+[Tue May 12 11:48:43 2026] 127.0.0.1:56204 Closing
+[Tue May 12 11:48:45 2026] 127.0.0.1:56214 Accepted
+[Tue May 12 11:48:48 2026] 127.0.0.1:56214 [200]: GET /pricing.php
+[Tue May 12 11:48:48 2026] 127.0.0.1:56214 Closing
+[Tue May 12 11:48:48 2026] 127.0.0.1:56226 Accepted
+[Tue May 12 11:48:48 2026] 127.0.0.1:56226 [200]: GET /styles.css
+[Tue May 12 11:48:48 2026] 127.0.0.1:56226 Closing
+[Tue May 12 11:48:54 2026] 127.0.0.1:52696 Accepted
+[Tue May 12 11:48:54 2026] 127.0.0.1:52696 [200]: GET /app.js
+[Tue May 12 11:48:54 2026] 127.0.0.1:52696 Closing
+[Tue May 12 11:49:16 2026] 127.0.0.1:53706 Accepted
+[Tue May 12 11:49:17 2026] 127.0.0.1:53706 [200]: GET /pricing.php
+[Tue May 12 11:49:17 2026] 127.0.0.1:53706 Closing
+[Tue May 12 11:49:18 2026] 127.0.0.1:53720 Accepted
+[Tue May 12 11:49:18 2026] 127.0.0.1:53720 [200]: GET /styles.css
+[Tue May 12 11:49:18 2026] 127.0.0.1:53720 Closing
+[Tue May 12 11:49:18 2026] 127.0.0.1:53730 Accepted
+[Tue May 12 11:49:18 2026] 127.0.0.1:53730 [200]: GET /app.js
+[Tue May 12 11:49:18 2026] 127.0.0.1:53730 Closing
+[Tue May 12 11:49:23 2026] 127.0.0.1:43650 Accepted
+[Tue May 12 11:49:23 2026] 127.0.0.1:43664 Accepted
+[Tue May 12 11:49:23 2026] 127.0.0.1:43664 [200]: GET /pricing.php
+[Tue May 12 11:49:23 2026] 127.0.0.1:43664 Closing
+[Tue May 12 11:49:24 2026] 127.0.0.1:43650 [200]: GET /styles.css
+[Tue May 12 11:49:26 2026] 127.0.0.1:43676 Accepted
+[Tue May 12 11:49:26 2026] 127.0.0.1:43650 Closing
+[Tue May 12 11:49:26 2026] 127.0.0.1:43676 [200]: GET /app.js
+[Tue May 12 11:49:26 2026] 127.0.0.1:43676 Closing
+[Tue May 12 11:50:54 2026] 127.0.0.1:35322 Accepted
+[Tue May 12 11:50:54 2026] 127.0.0.1:35332 Accepted
+[Tue May 12 11:50:54 2026] 127.0.0.1:35332 [200]: GET /pricing.php
+[Tue May 12 11:50:54 2026] 127.0.0.1:35332 Closing
+[Tue May 12 11:50:54 2026] 127.0.0.1:35322 [200]: GET /styles.css
+[Tue May 12 11:50:54 2026] 127.0.0.1:35322 Closing
+[Tue May 12 11:51:27 2026] 127.0.0.1:52536 Accepted
+[Tue May 12 11:51:29 2026] 127.0.0.1:52536 [200]: GET /app.js
+[Tue May 12 11:51:29 2026] 127.0.0.1:52536 Closing
+[Tue May 12 12:29:36 2026] 127.0.0.1:36468 Accepted
+[Tue May 12 12:29:38 2026] 127.0.0.1:36468 [200]: GET /
+[Tue May 12 12:29:39 2026] 127.0.0.1:36468 Closing
+[Tue May 12 12:29:39 2026] 127.0.0.1:36474 Accepted
+[Tue May 12 12:29:39 2026] 127.0.0.1:36474 [200]: GET /app.js
+[Tue May 12 12:29:39 2026] 127.0.0.1:36474 Closing
+[Tue May 12 12:29:39 2026] 127.0.0.1:36476 Accepted
+[Tue May 12 12:29:39 2026] 127.0.0.1:36476 [200]: GET /styles.css
+[Tue May 12 12:29:39 2026] 127.0.0.1:36476 Closing
+[Tue May 12 16:42:23 2026] 127.0.0.1:37256 Accepted
+[Tue May 12 16:42:23 2026] 127.0.0.1:37256 [200]: HEAD /index.php
+[Tue May 12 16:42:23 2026] 127.0.0.1:37256 Closing
+[Tue May 12 16:42:36 2026] 127.0.0.1:59524 Accepted
+[Tue May 12 16:42:36 2026] 127.0.0.1:59540 Accepted
+[Tue May 12 16:42:36 2026] 127.0.0.1:59540 [200]: GET /index.php
+[Tue May 12 16:42:36 2026] 127.0.0.1:59540 Closing
+[Tue May 12 16:42:36 2026] 127.0.0.1:59524 [200]: GET /styles.css
+[Tue May 12 16:42:36 2026] 127.0.0.1:59542 Accepted
+[Tue May 12 16:42:36 2026] 127.0.0.1:59542 [200]: GET /app.js
+[Tue May 12 16:42:36 2026] 127.0.0.1:59524 Closing
+[Tue May 12 16:42:36 2026] 127.0.0.1:59542 Closing
+[Tue May 12 16:42:37 2026] 127.0.0.1:59550 Accepted
+[Tue May 12 16:42:37 2026] 127.0.0.1:59550 [404]: GET /favicon.ico - No such file or directory
+[Tue May 12 16:42:37 2026] 127.0.0.1:59550 Closing
+[Tue May 12 16:42:59 2026] 127.0.0.1:37238 Accepted
+[Tue May 12 16:42:59 2026] 127.0.0.1:37238 [200]: GET /index.php
+[Tue May 12 16:42:59 2026] 127.0.0.1:37238 Closing
+[Tue May 12 16:42:59 2026] 127.0.0.1:37242 Accepted
+[Tue May 12 16:42:59 2026] 127.0.0.1:37242 [200]: GET /styles.css
+[Tue May 12 16:42:59 2026] 127.0.0.1:37242 Closing
+[Tue May 12 16:42:59 2026] 127.0.0.1:37248 Accepted
+[Tue May 12 16:42:59 2026] 127.0.0.1:37248 [200]: GET /app.js
+[Tue May 12 16:42:59 2026] 127.0.0.1:37248 Closing
+[Tue May 12 16:43:06 2026] 127.0.0.1:54856 Accepted
+[Tue May 12 16:43:06 2026] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: p.pseudo in /home/khadijatou/SafeSpace/public/feed.php:5
+Stack trace:
+#0 /home/khadijatou/SafeSpace/public/feed.php(5): PDO->query()
+#1 {main}
+  thrown in /home/khadijatou/SafeSpace/public/feed.php on line 5
+[Tue May 12 16:43:06 2026] 127.0.0.1:54856 [500]: GET /feed.php - Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: p.pseudo in /home/khadijatou/SafeSpace/public/feed.php:5
+Stack trace:
+#0 /home/khadijatou/SafeSpace/public/feed.php(5): PDO->query()
+#1 {main}
+  thrown in /home/khadijatou/SafeSpace/public/feed.php on line 5
+[Tue May 12 16:43:06 2026] 127.0.0.1:54856 Closing
+[Tue May 12 16:43:06 2026] 127.0.0.1:54870 Accepted
+[Tue May 12 16:43:06 2026] 127.0.0.1:54870 [200]: GET /styles.css
+[Tue May 12 16:43:06 2026] 127.0.0.1:54870 Closing
+[Tue May 12 16:43:10 2026] 127.0.0.1:33918 Accepted
+[Tue May 12 16:43:10 2026] 127.0.0.1:33918 [200]: GET /share.php
+[Tue May 12 16:43:10 2026] 127.0.0.1:33918 Closing
+[Tue May 12 16:43:10 2026] 127.0.0.1:33932 Accepted
+[Tue May 12 16:43:10 2026] 127.0.0.1:33932 [200]: GET /app.js
+[Tue May 12 16:43:10 2026] 127.0.0.1:33932 Closing
+[Tue May 12 16:43:10 2026] 127.0.0.1:33942 Accepted
+[Tue May 12 16:43:10 2026] 127.0.0.1:33942 [200]: GET /styles.css
+[Tue May 12 16:43:10 2026] 127.0.0.1:33942 Closing
+[Tue May 12 16:43:15 2026] 127.0.0.1:33950 Accepted
+[Tue May 12 16:43:16 2026] 127.0.0.1:33950 [200]: GET /inspiration.php
+[Tue May 12 16:43:16 2026] 127.0.0.1:33950 Closing
+[Tue May 12 16:43:16 2026] 127.0.0.1:33962 Accepted
+[Tue May 12 16:43:16 2026] 127.0.0.1:33962 [200]: GET /styles.css
+[Tue May 12 16:43:16 2026] 127.0.0.1:33962 Closing
+[Tue May 12 16:43:16 2026] 127.0.0.1:33968 Accepted
+[Tue May 12 16:43:16 2026] 127.0.0.1:33968 [200]: GET /app.js
+[Tue May 12 16:43:16 2026] 127.0.0.1:33968 Closing
+[Tue May 12 16:43:18 2026] 127.0.0.1:33978 Accepted
+[Tue May 12 16:43:18 2026] 127.0.0.1:33978 [200]: GET /login.php
+[Tue May 12 16:43:18 2026] 127.0.0.1:33978 Closing
+[Tue May 12 16:43:19 2026] 127.0.0.1:33982 Accepted
+[Tue May 12 16:43:19 2026] 127.0.0.1:33982 [200]: GET /styles.css
+[Tue May 12 16:43:19 2026] 127.0.0.1:33982 Closing
+[Tue May 12 16:43:19 2026] 127.0.0.1:33996 Accepted
+[Tue May 12 16:43:19 2026] 127.0.0.1:33996 [200]: GET /app.js
+[Tue May 12 16:43:19 2026] 127.0.0.1:33996 Closing
+[Tue May 12 16:43:23 2026] 127.0.0.1:54926 Accepted
+[Tue May 12 16:43:23 2026] 127.0.0.1:54926 [200]: GET /register.php
+[Tue May 12 16:43:23 2026] 127.0.0.1:54926 Closing
+[Tue May 12 16:43:23 2026] 127.0.0.1:54942 Accepted
+[Tue May 12 16:43:23 2026] 127.0.0.1:54942 [200]: GET /styles.css
+[Tue May 12 16:43:23 2026] 127.0.0.1:54942 Closing
+[Tue May 12 16:43:23 2026] 127.0.0.1:54948 Accepted
+[Tue May 12 16:43:23 2026] 127.0.0.1:54948 [200]: GET /app.js
+[Tue May 12 16:43:23 2026] 127.0.0.1:54948 Closing
+[Tue May 12 16:43:30 2026] 127.0.0.1:54956 Accepted
+[Tue May 12 16:43:30 2026] 127.0.0.1:54956 [200]: GET /index.php
+[Tue May 12 16:43:30 2026] 127.0.0.1:54956 Closing
+[Tue May 12 16:43:30 2026] 127.0.0.1:38654 Accepted
+[Tue May 12 16:43:30 2026] 127.0.0.1:38654 [200]: GET /styles.css
+[Tue May 12 16:43:30 2026] 127.0.0.1:38654 Closing
+[Tue May 12 16:43:30 2026] 127.0.0.1:38666 Accepted
+[Tue May 12 16:43:30 2026] 127.0.0.1:38666 [200]: GET /app.js
+[Tue May 12 16:43:30 2026] 127.0.0.1:38666 Closing
+[Tue May 12 16:43:32 2026] 127.0.0.1:38682 Accepted
+[Tue May 12 16:43:32 2026] 127.0.0.1:38682 [200]: GET /index.php
+[Tue May 12 16:43:32 2026] 127.0.0.1:38682 Closing
+[Tue May 12 16:43:32 2026] 127.0.0.1:38690 Accepted
+[Tue May 12 16:43:32 2026] 127.0.0.1:38690 [200]: GET /app.js
+[Tue May 12 16:43:32 2026] 127.0.0.1:38690 Closing
+[Tue May 12 16:43:32 2026] 127.0.0.1:38704 Accepted
+[Tue May 12 16:43:32 2026] 127.0.0.1:38704 [200]: GET /styles.css
+[Tue May 12 16:43:32 2026] 127.0.0.1:38704 Closing
+[Tue May 12 16:43:33 2026] 127.0.0.1:38708 Accepted
+[Tue May 12 16:43:33 2026] 127.0.0.1:38708 [200]: GET /index.php
+[Tue May 12 16:43:33 2026] 127.0.0.1:38708 Closing
+[Tue May 12 16:43:33 2026] 127.0.0.1:38716 Accepted
+[Tue May 12 16:43:33 2026] 127.0.0.1:38716 [200]: GET /app.js
+[Tue May 12 16:43:33 2026] 127.0.0.1:38716 Closing
+[Tue May 12 16:43:33 2026] 127.0.0.1:38732 Accepted
+[Tue May 12 16:43:33 2026] 127.0.0.1:38732 [200]: GET /styles.css
+[Tue May 12 16:43:33 2026] 127.0.0.1:38732 Closing
+[Tue May 12 16:46:32 2026] 127.0.0.1:34584 Accepted
+[Tue May 12 16:46:32 2026] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: p.pseudo in /home/khadijatou/SafeSpace/public/feed.php:5
+Stack trace:
+#0 /home/khadijatou/SafeSpace/public/feed.php(5): PDO->query()
+#1 {main}
+  thrown in /home/khadijatou/SafeSpace/public/feed.php on line 5
+[Tue May 12 16:46:32 2026] 127.0.0.1:34584 [500]: GET /feed.php - Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: p.pseudo in /home/khadijatou/SafeSpace/public/feed.php:5
+Stack trace:
+#0 /home/khadijatou/SafeSpace/public/feed.php(5): PDO->query()
+#1 {main}
+  thrown in /home/khadijatou/SafeSpace/public/feed.php on line 5
+[Tue May 12 16:46:32 2026] 127.0.0.1:34584 Closing
+[Tue May 12 16:46:32 2026] 127.0.0.1:34598 Accepted
+[Tue May 12 16:46:32 2026] 127.0.0.1:34598 [200]: GET /styles.css
+[Tue May 12 16:46:32 2026] 127.0.0.1:34598 Closing
+[Tue May 12 16:46:39 2026] 127.0.0.1:34600 Accepted
+[Tue May 12 16:46:39 2026] 127.0.0.1:34600 [200]: GET /share.php
+[Tue May 12 16:46:39 2026] 127.0.0.1:34600 Closing
+[Tue May 12 16:46:39 2026] 127.0.0.1:53658 Accepted
+[Tue May 12 16:46:39 2026] 127.0.0.1:53672 Accepted
+[Tue May 12 16:46:39 2026] 127.0.0.1:53658 [200]: GET /styles.css
+[Tue May 12 16:46:39 2026] 127.0.0.1:53672 [200]: GET /app.js
+[Tue May 12 16:46:39 2026] 127.0.0.1:53658 Closing
+[Tue May 12 16:46:39 2026] 127.0.0.1:53672 Closing
+[Tue May 12 16:46:40 2026] 127.0.0.1:53682 Accepted
+[Tue May 12 16:46:41 2026] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: p.pseudo in /home/khadijatou/SafeSpace/public/feed.php:5
+Stack trace:
+#0 /home/khadijatou/SafeSpace/public/feed.php(5): PDO->query()
+#1 {main}
+  thrown in /home/khadijatou/SafeSpace/public/feed.php on line 5
+[Tue May 12 16:46:41 2026] 127.0.0.1:53682 [500]: GET /feed.php - Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: p.pseudo in /home/khadijatou/SafeSpace/public/feed.php:5
+Stack trace:
+#0 /home/khadijatou/SafeSpace/public/feed.php(5): PDO->query()
+#1 {main}
+  thrown in /home/khadijatou/SafeSpace/public/feed.php on line 5
+[Tue May 12 16:46:41 2026] 127.0.0.1:53682 Closing
+[Tue May 12 16:46:41 2026] 127.0.0.1:53690 Accepted
+[Tue May 12 16:46:41 2026] 127.0.0.1:53690 [200]: GET /styles.css
+[Tue May 12 16:46:41 2026] 127.0.0.1:53690 Closing
+[Tue May 12 16:46:43 2026] 127.0.0.1:53702 Accepted
+[Tue May 12 16:46:43 2026] 127.0.0.1:53702 [200]: GET /share.php
+[Tue May 12 16:46:43 2026] 127.0.0.1:53702 Closing
+[Tue May 12 16:46:43 2026] 127.0.0.1:53718 Accepted
+[Tue May 12 16:46:43 2026] 127.0.0.1:53722 Accepted
+[Tue May 12 16:46:43 2026] 127.0.0.1:53718 [200]: GET /styles.css
+[Tue May 12 16:46:43 2026] 127.0.0.1:53722 [200]: GET /app.js
+[Tue May 12 16:46:43 2026] 127.0.0.1:53718 Closing
+[Tue May 12 16:46:43 2026] 127.0.0.1:53722 Closing
+[Tue May 12 16:46:45 2026] 127.0.0.1:53732 Accepted
+[Tue May 12 16:46:45 2026] 127.0.0.1:53732 [200]: GET /inspiration.php
+[Tue May 12 16:46:45 2026] 127.0.0.1:53732 Closing
+[Tue May 12 16:46:45 2026] 127.0.0.1:53736 Accepted
+[Tue May 12 16:46:45 2026] 127.0.0.1:53736 [200]: GET /styles.css
+[Tue May 12 16:46:45 2026] 127.0.0.1:53736 Closing
+[Tue May 12 16:46:45 2026] 127.0.0.1:53744 Accepted
+[Tue May 12 16:46:45 2026] 127.0.0.1:53744 [200]: GET /app.js
+[Tue May 12 16:46:45 2026] 127.0.0.1:53744 Closing
+[Tue May 12 16:46:52 2026] 127.0.0.1:44646 Accepted
+[Tue May 12 16:46:52 2026] 127.0.0.1:44646 [200]: GET /login.php
+[Tue May 12 16:46:52 2026] 127.0.0.1:44646 Closing
+[Tue May 12 16:46:52 2026] 127.0.0.1:44656 Accepted
+[Tue May 12 16:46:52 2026] 127.0.0.1:44656 [200]: GET /styles.css
+[Tue May 12 16:46:52 2026] 127.0.0.1:44656 Closing
+[Tue May 12 16:46:52 2026] 127.0.0.1:44664 Accepted
+[Tue May 12 16:46:52 2026] 127.0.0.1:44664 [200]: GET /app.js
+[Tue May 12 16:46:52 2026] 127.0.0.1:44664 Closing
+[Tue May 12 16:46:54 2026] 127.0.0.1:44676 Accepted
+[Tue May 12 16:46:54 2026] 127.0.0.1:44676 [200]: GET /login.php
+[Tue May 12 16:46:54 2026] 127.0.0.1:44676 Closing
+[Tue May 12 16:46:54 2026] 127.0.0.1:44684 Accepted
+[Tue May 12 16:46:54 2026] 127.0.0.1:44684 [200]: GET /styles.css
+[Tue May 12 16:46:54 2026] 127.0.0.1:44684 Closing
+[Tue May 12 16:46:54 2026] 127.0.0.1:44692 Accepted
+[Tue May 12 16:46:54 2026] 127.0.0.1:44692 [200]: GET /app.js
+[Tue May 12 16:46:54 2026] 127.0.0.1:44692 Closing
+[Tue May 12 16:46:55 2026] 127.0.0.1:44698 Accepted
+[Tue May 12 16:46:55 2026] 127.0.0.1:44698 [200]: GET /register.php
+[Tue May 12 16:46:55 2026] 127.0.0.1:44698 Closing
+[Tue May 12 16:46:55 2026] 127.0.0.1:44704 Accepted
+[Tue May 12 16:46:55 2026] 127.0.0.1:44704 [200]: GET /styles.css
+[Tue May 12 16:46:55 2026] 127.0.0.1:44704 Closing
+[Tue May 12 16:46:55 2026] 127.0.0.1:44718 Accepted
+[Tue May 12 16:46:55 2026] 127.0.0.1:44718 [200]: GET /app.js
+[Tue May 12 16:46:55 2026] 127.0.0.1:44718 Closing
+[Tue May 12 16:47:23 2026] 127.0.0.1:59698 Accepted
+[Tue May 12 16:47:23 2026] 127.0.0.1:59698 [200]: GET /index.php
+[Tue May 12 16:47:23 2026] 127.0.0.1:59698 Closing
+[Tue May 12 16:47:23 2026] 127.0.0.1:59706 Accepted
+[Tue May 12 16:47:23 2026] 127.0.0.1:59706 [200]: GET /app.js
+[Tue May 12 16:47:23 2026] 127.0.0.1:59706 Closing
+[Tue May 12 16:47:23 2026] 127.0.0.1:59720 Accepted
+[Tue May 12 16:47:23 2026] 127.0.0.1:59720 [200]: GET /styles.css
+[Tue May 12 16:47:23 2026] 127.0.0.1:59720 Closing
+[Tue May 12 16:52:42 2026] 127.0.0.1:57162 Accepted
+[Tue May 12 16:52:42 2026] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: p.pseudo in /home/khadijatou/SafeSpace/public/feed.php:5
+Stack trace:
+#0 /home/khadijatou/SafeSpace/public/feed.php(5): PDO->query()
+#1 {main}
+  thrown in /home/khadijatou/SafeSpace/public/feed.php on line 5
+[Tue May 12 16:52:42 2026] 127.0.0.1:57162 [500]: GET /feed.php - Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: p.pseudo in /home/khadijatou/SafeSpace/public/feed.php:5
+Stack trace:
+#0 /home/khadijatou/SafeSpace/public/feed.php(5): PDO->query()
+#1 {main}
+  thrown in /home/khadijatou/SafeSpace/public/feed.php on line 5
+[Tue May 12 16:52:42 2026] 127.0.0.1:57162 Closing
+[Tue May 12 16:52:42 2026] 127.0.0.1:57164 Accepted
+[Tue May 12 16:52:43 2026] 127.0.0.1:57164 [200]: GET /styles.css
+[Tue May 12 16:52:43 2026] 127.0.0.1:57164 Closing
+[Tue May 12 16:52:44 2026] 127.0.0.1:57176 Accepted
+[Tue May 12 16:52:45 2026] 127.0.0.1:57176 [200]: GET /share.php
+[Tue May 12 16:52:45 2026] 127.0.0.1:57176 Closing
+[Tue May 12 16:52:45 2026] 127.0.0.1:57180 Accepted
+[Tue May 12 16:52:45 2026] 127.0.0.1:57180 [200]: GET /styles.css
+[Tue May 12 16:52:45 2026] 127.0.0.1:57180 Closing
+[Tue May 12 16:52:45 2026] 127.0.0.1:57182 Accepted
+[Tue May 12 16:52:45 2026] 127.0.0.1:57182 [200]: GET /app.js
+[Tue May 12 16:52:45 2026] 127.0.0.1:57182 Closing
+[Tue May 12 16:52:47 2026] 127.0.0.1:57188 Accepted
+[Tue May 12 16:52:47 2026] 127.0.0.1:57188 [200]: GET /inspiration.php
+[Tue May 12 16:52:47 2026] 127.0.0.1:57188 Closing
+[Tue May 12 16:52:47 2026] 127.0.0.1:57198 Accepted
+[Tue May 12 16:52:47 2026] 127.0.0.1:57198 [200]: GET /styles.css
+[Tue May 12 16:52:47 2026] 127.0.0.1:57198 Closing
+[Tue May 12 16:52:47 2026] 127.0.0.1:57206 Accepted
+[Tue May 12 16:52:47 2026] 127.0.0.1:57206 [200]: GET /app.js
+[Tue May 12 16:52:47 2026] 127.0.0.1:57206 Closing
+[Tue May 12 16:52:49 2026] 127.0.0.1:42630 Accepted
+[Tue May 12 16:52:49 2026] 127.0.0.1:42630 [200]: GET /login.php
+[Tue May 12 16:52:49 2026] 127.0.0.1:42630 Closing
+[Tue May 12 16:52:49 2026] 127.0.0.1:42632 Accepted
+[Tue May 12 16:52:49 2026] 127.0.0.1:42632 [200]: GET /styles.css
+[Tue May 12 16:52:49 2026] 127.0.0.1:42632 Closing
+[Tue May 12 16:52:50 2026] 127.0.0.1:42646 Accepted
+[Tue May 12 16:52:50 2026] 127.0.0.1:42646 [200]: GET /app.js
+[Tue May 12 16:52:50 2026] 127.0.0.1:42646 Closing
+[Tue May 12 16:52:51 2026] 127.0.0.1:42656 Accepted
+[Tue May 12 16:52:52 2026] 127.0.0.1:42656 [200]: GET /register.php
+[Tue May 12 16:52:52 2026] 127.0.0.1:42656 Closing
+[Tue May 12 16:52:52 2026] 127.0.0.1:42664 Accepted
+[Tue May 12 16:52:52 2026] 127.0.0.1:42664 [200]: GET /styles.css
+[Tue May 12 16:52:52 2026] 127.0.0.1:42664 Closing
+[Tue May 12 16:52:52 2026] 127.0.0.1:42680 Accepted
+[Tue May 12 16:52:52 2026] 127.0.0.1:42680 [200]: GET /app.js
+[Tue May 12 16:52:52 2026] 127.0.0.1:42680 Closing
+[Tue May 12 16:53:09 2026] 127.0.0.1:55478 Accepted
+[Tue May 12 16:53:09 2026] 127.0.0.1:55492 Accepted
+[Tue May 12 16:53:09 2026] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 19 CHECK constraint failed: role IN ('member', 'creator', 'admin') in /home/khadijatou/SafeSpace/public/register.php:22
+Stack trace:
+#0 /home/khadijatou/SafeSpace/public/register.php(22): PDOStatement->execute()
+#1 {main}
+  thrown in /home/khadijatou/SafeSpace/public/register.php on line 22
+[Tue May 12 16:53:09 2026] 127.0.0.1:55478 [500]: POST /register.php - Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 19 CHECK constraint failed: role IN ('member', 'creator', 'admin') in /home/khadijatou/SafeSpace/public/register.php:22
+Stack trace:
+#0 /home/khadijatou/SafeSpace/public/register.php(22): PDOStatement->execute()
+#1 {main}
+  thrown in /home/khadijatou/SafeSpace/public/register.php on line 22
+[Tue May 12 16:53:09 2026] 127.0.0.1:55478 Closing
+[Tue May 12 16:53:09 2026] 127.0.0.1:55492 [200]: GET /styles.css
+[Tue May 12 16:53:09 2026] 127.0.0.1:55492 Closing
+[Tue May 12 16:53:15 2026] 127.0.0.1:45934 Accepted
+[Tue May 12 16:53:16 2026] 127.0.0.1:45934 [200]: GET /pricing.php
+[Tue May 12 16:53:16 2026] 127.0.0.1:45934 Closing
+[Tue May 12 16:53:16 2026] 127.0.0.1:45942 Accepted
+[Tue May 12 16:53:16 2026] 127.0.0.1:45950 Accepted
+[Tue May 12 16:53:16 2026] 127.0.0.1:45950 [200]: GET /app.js
+[Tue May 12 16:53:16 2026] 127.0.0.1:45950 Closing
+[Tue May 12 16:53:16 2026] 127.0.0.1:45942 [200]: GET /styles.css
+[Tue May 12 16:53:16 2026] 127.0.0.1:45942 Closing
+[Tue May 12 16:53:31 2026] 127.0.0.1:55948 Accepted
+[Tue May 12 16:53:31 2026] 127.0.0.1:55948 [200]: GET /index.php
+[Tue May 12 16:53:31 2026] 127.0.0.1:55948 Closing
+[Tue May 12 16:53:31 2026] 127.0.0.1:55950 Accepted
+[Tue May 12 16:53:31 2026] 127.0.0.1:55950 [200]: GET /styles.css
+[Tue May 12 16:53:31 2026] 127.0.0.1:55950 Closing
+[Tue May 12 16:53:31 2026] 127.0.0.1:55954 Accepted
+[Tue May 12 16:53:31 2026] 127.0.0.1:55954 [200]: GET /app.js
+[Tue May 12 16:53:31 2026] 127.0.0.1:55954 Closing
+[Tue May 12 16:53:33 2026] 127.0.0.1:55956 Accepted
+[Tue May 12 16:53:33 2026] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: p.pseudo in /home/khadijatou/SafeSpace/public/feed.php:5
+Stack trace:
+#0 /home/khadijatou/SafeSpace/public/feed.php(5): PDO->query()
+#1 {main}
+  thrown in /home/khadijatou/SafeSpace/public/feed.php on line 5
+[Tue May 12 16:53:33 2026] 127.0.0.1:55956 [500]: GET /feed.php - Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: p.pseudo in /home/khadijatou/SafeSpace/public/feed.php:5
+Stack trace:
+#0 /home/khadijatou/SafeSpace/public/feed.php(5): PDO->query()
+#1 {main}
+  thrown in /home/khadijatou/SafeSpace/public/feed.php on line 5
+[Tue May 12 16:53:33 2026] 127.0.0.1:55956 Closing
+[Tue May 12 16:53:33 2026] 127.0.0.1:55964 Accepted
+[Tue May 12 16:53:33 2026] 127.0.0.1:55964 [200]: GET /styles.css
+[Tue May 12 16:53:33 2026] 127.0.0.1:55964 Closing
+[Tue May 12 16:53:34 2026] 127.0.0.1:55976 Accepted
+[Tue May 12 16:53:35 2026] 127.0.0.1:55976 [200]: GET /share.php
+[Tue May 12 16:53:35 2026] 127.0.0.1:55976 Closing
+[Tue May 12 16:53:35 2026] 127.0.0.1:55982 Accepted
+[Tue May 12 16:53:35 2026] 127.0.0.1:55984 Accepted
+[Tue May 12 16:53:35 2026] 127.0.0.1:55982 [200]: GET /app.js
+[Tue May 12 16:53:35 2026] 127.0.0.1:55984 [200]: GET /styles.css
+[Tue May 12 16:53:35 2026] 127.0.0.1:55982 Closing
+[Tue May 12 16:53:35 2026] 127.0.0.1:55984 Closing
+[Tue May 12 16:53:36 2026] 127.0.0.1:55986 Accepted
+[Tue May 12 16:53:36 2026] 127.0.0.1:55986 [200]: GET /inspiration.php
+[Tue May 12 16:53:36 2026] 127.0.0.1:55986 Closing
+[Tue May 12 16:53:37 2026] 127.0.0.1:55998 Accepted
+[Tue May 12 16:53:37 2026] 127.0.0.1:55998 [200]: GET /styles.css
+[Tue May 12 16:53:37 2026] 127.0.0.1:55998 Closing
+[Tue May 12 16:53:37 2026] 127.0.0.1:56012 Accepted
+[Tue May 12 16:53:37 2026] 127.0.0.1:56012 [200]: GET /app.js
+[Tue May 12 16:53:37 2026] 127.0.0.1:56012 Closing
+[Tue May 12 16:53:49 2026] 127.0.0.1:48778 Accepted
+[Tue May 12 16:53:49 2026] 127.0.0.1:48778 [200]: GET /pricing.php
+[Tue May 12 16:53:49 2026] 127.0.0.1:48778 Closing
+[Tue May 12 16:53:49 2026] 127.0.0.1:57176 Accepted
+[Tue May 12 16:53:49 2026] 127.0.0.1:57176 [200]: GET /styles.css
+[Tue May 12 16:53:49 2026] 127.0.0.1:57176 Closing
+[Tue May 12 16:53:49 2026] 127.0.0.1:57182 Accepted
+[Tue May 12 16:53:49 2026] 127.0.0.1:57182 [200]: GET /app.js
+[Tue May 12 16:53:49 2026] 127.0.0.1:57182 Closing
+[Tue May 12 16:55:41 2026] 127.0.0.1:34290 Accepted
+[Tue May 12 16:55:41 2026] 127.0.0.1:34290 [200]: GET /index.php
+[Tue May 12 16:55:41 2026] 127.0.0.1:34290 Closing
+[Tue May 12 16:55:41 2026] 127.0.0.1:34298 Accepted
+[Tue May 12 16:55:41 2026] 127.0.0.1:34304 Accepted
+[Tue May 12 16:55:41 2026] 127.0.0.1:34298 [200]: GET /styles.css
+[Tue May 12 16:55:41 2026] 127.0.0.1:34304 [200]: GET /app.js
+[Tue May 12 16:55:41 2026] 127.0.0.1:34298 Closing
+[Tue May 12 16:55:41 2026] 127.0.0.1:34304 Closing
+[Tue May 12 16:55:43 2026] 127.0.0.1:34310 Accepted
+[Tue May 12 16:55:44 2026] 127.0.0.1:34310 [200]: GET /index.php
+[Tue May 12 16:55:44 2026] 127.0.0.1:34310 Closing
+[Tue May 12 16:55:44 2026] 127.0.0.1:34322 Accepted
+[Tue May 12 16:55:44 2026] 127.0.0.1:34322 [200]: GET /styles.css
+[Tue May 12 16:55:44 2026] 127.0.0.1:34322 Closing
+[Tue May 12 16:55:44 2026] 127.0.0.1:34330 Accepted
+[Tue May 12 16:55:44 2026] 127.0.0.1:34330 [200]: GET /app.js
+[Tue May 12 16:55:44 2026] 127.0.0.1:34330 Closing
+[Tue May 12 16:55:46 2026] 127.0.0.1:34340 Accepted
+[Tue May 12 16:55:46 2026] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: p.pseudo in /home/khadijatou/SafeSpace/public/feed.php:5
+Stack trace:
+#0 /home/khadijatou/SafeSpace/public/feed.php(5): PDO->query()
+#1 {main}
+  thrown in /home/khadijatou/SafeSpace/public/feed.php on line 5
+[Tue May 12 16:55:46 2026] 127.0.0.1:34340 [500]: GET /feed.php - Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: p.pseudo in /home/khadijatou/SafeSpace/public/feed.php:5
+Stack trace:
+#0 /home/khadijatou/SafeSpace/public/feed.php(5): PDO->query()
+#1 {main}
+  thrown in /home/khadijatou/SafeSpace/public/feed.php on line 5
+[Tue May 12 16:55:46 2026] 127.0.0.1:34340 Closing
+[Tue May 12 16:55:46 2026] 127.0.0.1:34344 Accepted
+[Tue May 12 16:55:46 2026] 127.0.0.1:34344 [200]: GET /styles.css
+[Tue May 12 16:55:46 2026] 127.0.0.1:34344 Closing
+[Tue May 12 17:00:38 2026] 127.0.0.1:35878 Accepted
+[Tue May 12 17:00:38 2026] 127.0.0.1:35878 [200]: HEAD /login.php
+[Tue May 12 17:00:38 2026] 127.0.0.1:35878 Closing
+[Tue May 12 17:00:39 2026] 127.0.0.1:57906 Accepted
+[Tue May 12 17:00:39 2026] 127.0.0.1:57906 [200]: HEAD /pricing.php
+[Tue May 12 17:00:39 2026] 127.0.0.1:57906 Closing
+[Tue May 12 17:01:41 2026] 127.0.0.1:40790 Accepted
+[Tue May 12 17:01:43 2026] 127.0.0.1:40790 [200]: GET /
+[Tue May 12 17:01:43 2026] 127.0.0.1:40790 Closing
+[Tue May 12 17:01:43 2026] 127.0.0.1:40800 Accepted
+[Tue May 12 17:01:43 2026] 127.0.0.1:40800 [200]: GET /styles.css
+[Tue May 12 17:01:43 2026] 127.0.0.1:40800 Closing
+[Tue May 12 17:01:43 2026] 127.0.0.1:40802 Accepted
+[Tue May 12 17:01:43 2026] 127.0.0.1:40802 [200]: GET /app.js
+[Tue May 12 17:01:43 2026] 127.0.0.1:40802 Closing
+[Tue May 12 17:01:44 2026] 127.0.0.1:40812 Accepted
+[Tue May 12 17:01:45 2026] 127.0.0.1:40812 [404]: GET /favicon.ico - No such file or directory
+[Tue May 12 17:01:45 2026] 127.0.0.1:40812 Closing
+[Tue May 12 17:02:01 2026] 127.0.0.1:46692 Accepted
+[Tue May 12 17:02:01 2026] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: p.pseudo in /home/khadijatou/SafeSpace/public/feed.php:5
+Stack trace:
+#0 /home/khadijatou/SafeSpace/public/feed.php(5): PDO->query()
+#1 {main}
+  thrown in /home/khadijatou/SafeSpace/public/feed.php on line 5
+[Tue May 12 17:02:01 2026] 127.0.0.1:46692 [500]: GET /feed.php - Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: p.pseudo in /home/khadijatou/SafeSpace/public/feed.php:5
+Stack trace:
+#0 /home/khadijatou/SafeSpace/public/feed.php(5): PDO->query()
+#1 {main}
+  thrown in /home/khadijatou/SafeSpace/public/feed.php on line 5
+[Tue May 12 17:02:01 2026] 127.0.0.1:46692 Closing
+[Tue May 12 17:02:01 2026] 127.0.0.1:46696 Accepted
+[Tue May 12 17:02:01 2026] 127.0.0.1:46696 [200]: GET /styles.css
+[Tue May 12 17:02:01 2026] 127.0.0.1:46696 Closing
+[Tue May 12 17:02:06 2026] 127.0.0.1:46698 Accepted
+[Tue May 12 17:02:06 2026] 127.0.0.1:46698 [200]: GET /share.php
+[Tue May 12 17:02:06 2026] 127.0.0.1:46698 Closing
+[Tue May 12 17:02:06 2026] 127.0.0.1:46704 Accepted
+[Tue May 12 17:02:06 2026] 127.0.0.1:46704 [200]: GET /app.js
+[Tue May 12 17:02:06 2026] 127.0.0.1:46704 Closing
+[Tue May 12 17:02:06 2026] 127.0.0.1:46708 Accepted
+[Tue May 12 17:02:06 2026] 127.0.0.1:46708 [200]: GET /styles.css
+[Tue May 12 17:02:06 2026] 127.0.0.1:46708 Closing
+[Tue May 12 17:02:10 2026] 127.0.0.1:45080 Accepted
+[Tue May 12 17:02:10 2026] 127.0.0.1:45080 [200]: GET /inspiration.php
+[Tue May 12 17:02:10 2026] 127.0.0.1:45080 Closing
+[Tue May 12 17:02:10 2026] 127.0.0.1:45092 Accepted
+[Tue May 12 17:02:11 2026] 127.0.0.1:45092 [200]: GET /styles.css
+[Tue May 12 17:02:11 2026] 127.0.0.1:45092 Closing
+[Tue May 12 17:02:11 2026] 127.0.0.1:45096 Accepted
+[Tue May 12 17:02:11 2026] 127.0.0.1:45096 [200]: GET /app.js
+[Tue May 12 17:02:11 2026] 127.0.0.1:45096 Closing
+[Tue May 12 17:02:13 2026] 127.0.0.1:45102 Accepted
+[Tue May 12 17:02:14 2026] 127.0.0.1:45102 [200]: GET /login.php
+[Tue May 12 17:02:14 2026] 127.0.0.1:45102 Closing
+[Tue May 12 17:02:14 2026] 127.0.0.1:45108 Accepted
+[Tue May 12 17:02:14 2026] 127.0.0.1:45108 [200]: GET /styles.css
+[Tue May 12 17:02:14 2026] 127.0.0.1:45112 Accepted
+[Tue May 12 17:02:14 2026] 127.0.0.1:45108 Closing
+[Tue May 12 17:02:14 2026] 127.0.0.1:45112 [200]: GET /app.js
+[Tue May 12 17:02:14 2026] 127.0.0.1:45112 Closing
+[Tue May 12 17:02:30 2026] 127.0.0.1:58678 Accepted
+[Tue May 12 17:02:30 2026] 127.0.0.1:58678 [200]: POST /login.php
+[Tue May 12 17:02:30 2026] 127.0.0.1:58678 Closing
+[Tue May 12 17:02:30 2026] 127.0.0.1:58688 Accepted
+[Tue May 12 17:02:30 2026] 127.0.0.1:58688 [200]: GET /styles.css
+[Tue May 12 17:02:30 2026] 127.0.0.1:58688 Closing
+[Tue May 12 17:02:30 2026] 127.0.0.1:58698 Accepted
+[Tue May 12 17:02:30 2026] 127.0.0.1:58698 [200]: GET /app.js
+[Tue May 12 17:02:30 2026] 127.0.0.1:58698 Closing
+[Tue May 12 17:02:32 2026] 127.0.0.1:58704 Accepted
+[Tue May 12 17:02:32 2026] 127.0.0.1:58704 [200]: GET /forgot_password.php
+[Tue May 12 17:02:32 2026] 127.0.0.1:58704 Closing
+[Tue May 12 17:02:32 2026] 127.0.0.1:58712 Accepted
+[Tue May 12 17:02:32 2026] 127.0.0.1:58712 [200]: GET /styles.css
+[Tue May 12 17:02:32 2026] 127.0.0.1:58712 Closing
+[Tue May 12 17:02:33 2026] 127.0.0.1:58722 Accepted
+[Tue May 12 17:02:33 2026] 127.0.0.1:58722 [200]: GET /app.js
+[Tue May 12 17:02:33 2026] 127.0.0.1:58722 Closing
+[Tue May 12 17:02:45 2026] 127.0.0.1:49362 Accepted
+[Tue May 12 17:02:45 2026] 127.0.0.1:49362 [200]: POST /forgot_password.php
+[Tue May 12 17:02:45 2026] 127.0.0.1:49362 Closing
+[Tue May 12 17:02:45 2026] 127.0.0.1:49364 Accepted
+[Tue May 12 17:02:45 2026] 127.0.0.1:49364 [200]: GET /styles.css
+[Tue May 12 17:02:45 2026] 127.0.0.1:49364 Closing
+[Tue May 12 17:02:45 2026] 127.0.0.1:49374 Accepted
+[Tue May 12 17:02:45 2026] 127.0.0.1:49374 [200]: GET /app.js
+[Tue May 12 17:02:45 2026] 127.0.0.1:49374 Closing
+[Tue May 12 17:02:54 2026] 127.0.0.1:42200 Accepted
+[Tue May 12 17:02:54 2026] 127.0.0.1:42200 [200]: GET /reset_password.php?token=ea41f9aa53462bddfb66080c1af95c9b8e2057a6cdcaece6871ba9fd73e72b80
+[Tue May 12 17:02:54 2026] 127.0.0.1:42200 Closing
+[Tue May 12 17:02:54 2026] 127.0.0.1:42214 Accepted
+[Tue May 12 17:02:54 2026] 127.0.0.1:42214 [200]: GET /styles.css
+[Tue May 12 17:02:54 2026] 127.0.0.1:42214 Closing
+[Tue May 12 17:02:55 2026] 127.0.0.1:42228 Accepted
+[Tue May 12 17:02:55 2026] 127.0.0.1:42228 [200]: GET /app.js
+[Tue May 12 17:02:55 2026] 127.0.0.1:42228 Closing
+[Tue May 12 17:03:31 2026] 127.0.0.1:48376 Accepted
+[Tue May 12 17:03:31 2026] 127.0.0.1:48376 [200]: POST /reset_password.php?token=ea41f9aa53462bddfb66080c1af95c9b8e2057a6cdcaece6871ba9fd73e72b80
+[Tue May 12 17:03:31 2026] 127.0.0.1:48376 Closing
+[Tue May 12 17:03:31 2026] 127.0.0.1:48380 Accepted
+[Tue May 12 17:03:31 2026] 127.0.0.1:48380 [200]: GET /styles.css
+[Tue May 12 17:03:31 2026] 127.0.0.1:48380 Closing
+[Tue May 12 17:03:31 2026] 127.0.0.1:48392 Accepted
+[Tue May 12 17:03:31 2026] 127.0.0.1:48392 [200]: GET /app.js
+[Tue May 12 17:03:31 2026] 127.0.0.1:48392 Closing
+[Tue May 12 17:04:28 2026] 127.0.0.1:49702 Accepted
+[Tue May 12 17:04:28 2026] 127.0.0.1:49714 Accepted
+[Tue May 12 17:04:28 2026] 127.0.0.1:49714 [200]: POST /reset_password.php?token=ea41f9aa53462bddfb66080c1af95c9b8e2057a6cdcaece6871ba9fd73e72b80
+[Tue May 12 17:04:28 2026] 127.0.0.1:49714 Closing
+[Tue May 12 17:04:28 2026] 127.0.0.1:49702 [200]: GET /styles.css
+[Tue May 12 17:04:28 2026] 127.0.0.1:49702 Closing
+[Tue May 12 17:04:28 2026] 127.0.0.1:49728 Accepted
+[Tue May 12 17:04:28 2026] 127.0.0.1:49728 [200]: GET /app.js
+[Tue May 12 17:04:28 2026] 127.0.0.1:49728 Closing
+[Tue May 12 17:04:58 2026] 127.0.0.1:51900 Accepted
+[Tue May 12 17:04:58 2026] 127.0.0.1:51908 Accepted
+[Tue May 12 17:04:58 2026] 127.0.0.1:51900 [200]: POST /reset_password.php?token=ea41f9aa53462bddfb66080c1af95c9b8e2057a6cdcaece6871ba9fd73e72b80
+[Tue May 12 17:04:58 2026] 127.0.0.1:51900 Closing
+[Tue May 12 17:04:58 2026] 127.0.0.1:51908 [200]: GET /styles.css
+[Tue May 12 17:04:58 2026] 127.0.0.1:51908 Closing
+[Tue May 12 17:04:58 2026] 127.0.0.1:51918 Accepted
+[Tue May 12 17:04:58 2026] 127.0.0.1:51918 [200]: GET /app.js
+[Tue May 12 17:04:58 2026] 127.0.0.1:51918 Closing
+[Tue May 12 17:06:49 2026] 127.0.0.1:35534 Accepted
+[Tue May 12 17:06:49 2026] 127.0.0.1:35534 [200]: POST /reset_password.php?token=ea41f9aa53462bddfb66080c1af95c9b8e2057a6cdcaece6871ba9fd73e72b80
+[Tue May 12 17:06:49 2026] 127.0.0.1:35534 Closing
+[Tue May 12 17:06:49 2026] 127.0.0.1:35540 Accepted
+[Tue May 12 17:06:49 2026] 127.0.0.1:35540 [200]: GET /app.js
+[Tue May 12 17:06:49 2026] 127.0.0.1:35540 Closing
+[Tue May 12 17:06:49 2026] 127.0.0.1:35552 Accepted
+[Tue May 12 17:06:49 2026] 127.0.0.1:35552 [200]: GET /styles.css
+[Tue May 12 17:06:49 2026] 127.0.0.1:35552 Closing
+[Tue May 12 17:07:37 2026] 127.0.0.1:48286 Accepted
+[Tue May 12 17:07:37 2026] 127.0.0.1:48298 Accepted
+[Tue May 12 17:07:38 2026] 127.0.0.1:48286 [200]: POST /reset_password.php?token=ea41f9aa53462bddfb66080c1af95c9b8e2057a6cdcaece6871ba9fd73e72b80
+[Tue May 12 17:07:38 2026] 127.0.0.1:48286 Closing
+[Tue May 12 17:07:38 2026] 127.0.0.1:48298 [200]: GET /styles.css
+[Tue May 12 17:07:38 2026] 127.0.0.1:48298 Closing
+[Tue May 12 17:07:38 2026] 127.0.0.1:48302 Accepted
+[Tue May 12 17:07:38 2026] 127.0.0.1:48302 [200]: GET /app.js
+[Tue May 12 17:07:38 2026] 127.0.0.1:48302 Closing
+[Tue May 12 17:07:50 2026] 127.0.0.1:51922 Accepted
+[Tue May 12 17:07:51 2026] 127.0.0.1:51922 [200]: GET /login.php
+[Tue May 12 17:07:51 2026] 127.0.0.1:51922 Closing
+[Tue May 12 17:07:51 2026] 127.0.0.1:51938 Accepted
+[Tue May 12 17:07:51 2026] 127.0.0.1:51938 [200]: GET /styles.css
+[Tue May 12 17:07:51 2026] 127.0.0.1:51938 Closing
+[Tue May 12 17:07:51 2026] 127.0.0.1:51948 Accepted
+[Tue May 12 17:07:51 2026] 127.0.0.1:51948 [200]: GET /app.js
+[Tue May 12 17:07:51 2026] 127.0.0.1:51948 Closing
+[Tue May 12 17:08:14 2026] 127.0.0.1:37350 Accepted
+[Tue May 12 17:08:14 2026] 127.0.0.1:37350 [200]: POST /login.php
+[Tue May 12 17:08:14 2026] 127.0.0.1:37350 Closing
+[Tue May 12 17:08:14 2026] 127.0.0.1:37366 Accepted
+[Tue May 12 17:08:14 2026] 127.0.0.1:37366 [200]: GET /styles.css
+[Tue May 12 17:08:14 2026] 127.0.0.1:37366 Closing
+[Tue May 12 17:08:14 2026] 127.0.0.1:37380 Accepted
+[Tue May 12 17:08:14 2026] 127.0.0.1:37380 [200]: GET /app.js
+[Tue May 12 17:08:14 2026] 127.0.0.1:37380 Closing
+[Tue May 12 17:08:54 2026] 127.0.0.1:38880 Accepted
+[Tue May 12 17:08:54 2026] 127.0.0.1:38880 [200]: POST /login.php
+[Tue May 12 17:08:54 2026] 127.0.0.1:38880 Closing
+[Tue May 12 17:08:54 2026] 127.0.0.1:38892 Accepted
+[Tue May 12 17:08:54 2026] 127.0.0.1:38892 [200]: GET /styles.css
+[Tue May 12 17:08:54 2026] 127.0.0.1:38892 Closing
+[Tue May 12 17:08:54 2026] 127.0.0.1:38894 Accepted
+[Tue May 12 17:08:54 2026] 127.0.0.1:38894 [200]: GET /app.js
+[Tue May 12 17:08:54 2026] 127.0.0.1:38894 Closing
+[Tue May 12 17:08:57 2026] 127.0.0.1:38906 Accepted
+[Tue May 12 17:08:57 2026] 127.0.0.1:38906 [200]: POST /login.php
+[Tue May 12 17:08:57 2026] 127.0.0.1:38906 Closing
+[Tue May 12 17:08:57 2026] 127.0.0.1:38918 Accepted
+[Tue May 12 17:08:57 2026] 127.0.0.1:38918 [200]: GET /styles.css
+[Tue May 12 17:08:57 2026] 127.0.0.1:38918 Closing
+[Tue May 12 17:08:57 2026] 127.0.0.1:38924 Accepted
+[Tue May 12 17:08:57 2026] 127.0.0.1:38924 [200]: GET /app.js
+[Tue May 12 17:08:57 2026] 127.0.0.1:38924 Closing
+[Tue May 12 17:09:57 2026] 127.0.0.1:41178 Accepted
+[Tue May 12 17:09:58 2026] 127.0.0.1:41178 [302]: POST /login.php
+[Tue May 12 17:09:58 2026] 127.0.0.1:41178 Closing
+[Tue May 12 17:09:58 2026] 127.0.0.1:41182 Accepted
+[Tue May 12 17:09:58 2026] 127.0.0.1:41182 [200]: GET /index.php
+[Tue May 12 17:09:58 2026] 127.0.0.1:41182 Closing
+[Tue May 12 17:09:58 2026] 127.0.0.1:41196 Accepted
+[Tue May 12 17:09:58 2026] 127.0.0.1:41196 [200]: GET /styles.css
+[Tue May 12 17:09:58 2026] 127.0.0.1:41196 Closing
+[Tue May 12 17:09:58 2026] 127.0.0.1:41198 Accepted
+[Tue May 12 17:09:58 2026] 127.0.0.1:41198 [200]: GET /app.js
+[Tue May 12 17:09:58 2026] 127.0.0.1:41198 Closing
+[Tue May 12 17:10:21 2026] 127.0.0.1:48352 Accepted
+[Tue May 12 17:10:22 2026] 127.0.0.1:48352 [200]: GET /pricing.php
+[Tue May 12 17:10:22 2026] 127.0.0.1:48352 Closing
+[Tue May 12 17:10:22 2026] 127.0.0.1:48366 Accepted
+[Tue May 12 17:10:22 2026] 127.0.0.1:48366 [200]: GET /styles.css
+[Tue May 12 17:10:22 2026] 127.0.0.1:48366 Closing
+[Tue May 12 17:10:22 2026] 127.0.0.1:48380 Accepted
+[Tue May 12 17:10:22 2026] 127.0.0.1:48380 [200]: GET /app.js
+[Tue May 12 17:10:22 2026] 127.0.0.1:48380 Closing
+[Tue May 12 17:10:26 2026] 127.0.0.1:48396 Accepted
+[Tue May 12 17:10:26 2026] 127.0.0.1:48396 [200]: GET /admin_settings.php
+[Tue May 12 17:10:26 2026] 127.0.0.1:48396 Closing
+[Tue May 12 17:10:26 2026] 127.0.0.1:48408 Accepted
+[Tue May 12 17:10:27 2026] 127.0.0.1:48408 [200]: GET /styles.css
+[Tue May 12 17:10:27 2026] 127.0.0.1:48408 Closing
+[Tue May 12 17:10:27 2026] 127.0.0.1:48414 Accepted
+[Tue May 12 17:10:27 2026] 127.0.0.1:48414 [200]: GET /app.js
+[Tue May 12 17:10:27 2026] 127.0.0.1:48414 Closing
+[Tue May 12 17:10:41 2026] 127.0.0.1:55012 Accepted
+[Tue May 12 17:10:41 2026] 127.0.0.1:55016 Accepted
+[Tue May 12 17:10:41 2026] 127.0.0.1:55016 [200]: POST /admin_settings.php
+[Tue May 12 17:10:41 2026] 127.0.0.1:55016 Closing
+[Tue May 12 17:10:41 2026] 127.0.0.1:55012 [200]: GET /styles.css
+[Tue May 12 17:10:41 2026] 127.0.0.1:55012 Closing
+[Tue May 12 17:10:41 2026] 127.0.0.1:55022 Accepted
+[Tue May 12 17:10:41 2026] 127.0.0.1:55022 [200]: GET /app.js
+[Tue May 12 17:10:41 2026] 127.0.0.1:55022 Closing
+[Tue May 12 17:10:49 2026] 127.0.0.1:45794 Accepted
+[Tue May 12 17:10:49 2026] 127.0.0.1:45804 Accepted
+[Tue May 12 17:10:49 2026] 127.0.0.1:45804 [200]: POST /admin_settings.php
+[Tue May 12 17:10:49 2026] 127.0.0.1:45804 Closing
+[Tue May 12 17:10:49 2026] 127.0.0.1:45794 [200]: GET /styles.css
+[Tue May 12 17:10:49 2026] 127.0.0.1:45794 Closing
+[Tue May 12 17:10:49 2026] 127.0.0.1:45818 Accepted
+[Tue May 12 17:10:49 2026] 127.0.0.1:45818 [200]: GET /app.js
+[Tue May 12 17:10:49 2026] 127.0.0.1:45818 Closing
+[Tue May 12 17:10:51 2026] 127.0.0.1:45832 Accepted
+[Tue May 12 17:10:51 2026] 127.0.0.1:45832 [200]: POST /admin_settings.php
+[Tue May 12 17:10:51 2026] 127.0.0.1:45832 Closing
+[Tue May 12 17:10:51 2026] 127.0.0.1:45848 Accepted
+[Tue May 12 17:10:51 2026] 127.0.0.1:45848 [200]: GET /styles.css
+[Tue May 12 17:10:51 2026] 127.0.0.1:45848 Closing
+[Tue May 12 17:10:51 2026] 127.0.0.1:45862 Accepted
+[Tue May 12 17:10:51 2026] 127.0.0.1:45862 [200]: GET /app.js
+[Tue May 12 17:10:51 2026] 127.0.0.1:45862 Closing
+[Tue May 12 17:10:53 2026] 127.0.0.1:45868 Accepted
+[Tue May 12 17:10:53 2026] 127.0.0.1:45868 [200]: POST /admin_settings.php
+[Tue May 12 17:10:53 2026] 127.0.0.1:45868 Closing
+[Tue May 12 17:10:53 2026] 127.0.0.1:45880 Accepted
+[Tue May 12 17:10:53 2026] 127.0.0.1:45880 [200]: GET /styles.css
+[Tue May 12 17:10:53 2026] 127.0.0.1:45880 Closing
+[Tue May 12 17:10:53 2026] 127.0.0.1:45884 Accepted
+[Tue May 12 17:10:53 2026] 127.0.0.1:45884 [200]: GET /app.js
+[Tue May 12 17:10:53 2026] 127.0.0.1:45884 Closing
+[Tue May 12 17:10:55 2026] 127.0.0.1:45894 Accepted
+[Tue May 12 17:10:55 2026] 127.0.0.1:45900 Accepted
+[Tue May 12 17:10:55 2026] 127.0.0.1:45894 [200]: POST /admin_settings.php
+[Tue May 12 17:10:55 2026] 127.0.0.1:45894 Closing
+[Tue May 12 17:10:55 2026] 127.0.0.1:45900 [200]: GET /styles.css
+[Tue May 12 17:10:55 2026] 127.0.0.1:45900 Closing
+[Tue May 12 17:10:55 2026] 127.0.0.1:45902 Accepted
+[Tue May 12 17:10:55 2026] 127.0.0.1:45902 [200]: GET /app.js
+[Tue May 12 17:10:55 2026] 127.0.0.1:45902 Closing
+[Tue May 12 17:11:01 2026] 127.0.0.1:57784 Accepted
+[Tue May 12 17:11:01 2026] 127.0.0.1:57784 [200]: POST /admin_settings.php
+[Tue May 12 17:11:01 2026] 127.0.0.1:57784 Closing
+[Tue May 12 17:11:01 2026] 127.0.0.1:57796 Accepted
+[Tue May 12 17:11:01 2026] 127.0.0.1:57796 [200]: GET /styles.css
+[Tue May 12 17:11:01 2026] 127.0.0.1:57796 Closing
+[Tue May 12 17:11:01 2026] 127.0.0.1:57802 Accepted
+[Tue May 12 17:11:01 2026] 127.0.0.1:57802 [200]: GET /app.js
+[Tue May 12 17:11:01 2026] 127.0.0.1:57802 Closing
+[Tue May 12 17:11:02 2026] 127.0.0.1:57812 Accepted
+[Tue May 12 17:11:02 2026] 127.0.0.1:57818 Accepted
+[Tue May 12 17:11:02 2026] 127.0.0.1:57818 [200]: POST /admin_settings.php
+[Tue May 12 17:11:02 2026] 127.0.0.1:57818 Closing
+[Tue May 12 17:11:02 2026] 127.0.0.1:57812 [200]: GET /styles.css
+[Tue May 12 17:11:02 2026] 127.0.0.1:57812 Closing
+[Tue May 12 17:11:02 2026] 127.0.0.1:57820 Accepted
+[Tue May 12 17:11:02 2026] 127.0.0.1:57820 [200]: GET /app.js
+[Tue May 12 17:11:02 2026] 127.0.0.1:57820 Closing
+[Tue May 12 17:11:10 2026] 127.0.0.1:59040 Accepted
+[Tue May 12 17:11:10 2026] 127.0.0.1:59040 [200]: POST /admin_settings.php
+[Tue May 12 17:11:10 2026] 127.0.0.1:59040 Closing
+[Tue May 12 17:11:10 2026] 127.0.0.1:59044 Accepted
+[Tue May 12 17:11:10 2026] 127.0.0.1:59044 [200]: GET /styles.css
+[Tue May 12 17:11:10 2026] 127.0.0.1:59044 Closing
+[Tue May 12 17:11:10 2026] 127.0.0.1:59056 Accepted
+[Tue May 12 17:11:10 2026] 127.0.0.1:59056 [200]: GET /app.js
+[Tue May 12 17:11:10 2026] 127.0.0.1:59056 Closing
+[Tue May 12 17:11:13 2026] 127.0.0.1:59066 Accepted
+[Tue May 12 17:11:13 2026] 127.0.0.1:59066 [200]: POST /admin_settings.php
+[Tue May 12 17:11:13 2026] 127.0.0.1:59066 Closing
+[Tue May 12 17:11:13 2026] 127.0.0.1:59080 Accepted
+[Tue May 12 17:11:13 2026] 127.0.0.1:59080 [200]: GET /styles.css
+[Tue May 12 17:11:13 2026] 127.0.0.1:59080 Closing
+[Tue May 12 17:11:13 2026] 127.0.0.1:59096 Accepted
+[Tue May 12 17:11:13 2026] 127.0.0.1:59096 [200]: GET /app.js
+[Tue May 12 17:11:13 2026] 127.0.0.1:59096 Closing
+[Tue May 12 17:15:50 2026] 127.0.0.1:39538 Accepted
+[Tue May 12 17:15:50 2026] 127.0.0.1:39548 Accepted
+[Tue May 12 17:15:51 2026] 127.0.0.1:39548 [200]: GET /creator.php
+[Tue May 12 17:15:51 2026] 127.0.0.1:39548 Closing
+[Tue May 12 17:15:51 2026] 127.0.0.1:39538 [200]: GET /app.js
+[Tue May 12 17:15:51 2026] 127.0.0.1:39538 Closing
+[Tue May 12 17:15:51 2026] 127.0.0.1:39554 Accepted
+[Tue May 12 17:15:51 2026] 127.0.0.1:39554 [200]: GET /styles.css
+[Tue May 12 17:15:51 2026] 127.0.0.1:39554 Closing
+[Tue May 12 17:16:03 2026] 127.0.0.1:37566 Accepted
+[Tue May 12 17:16:03 2026] 127.0.0.1:37566 [200]: GET /creator_earnings.php
+[Tue May 12 17:16:03 2026] 127.0.0.1:37566 Closing
+[Tue May 12 17:16:03 2026] 127.0.0.1:37582 Accepted
+[Tue May 12 17:16:03 2026] 127.0.0.1:37582 [200]: GET /styles.css
+[Tue May 12 17:16:03 2026] 127.0.0.1:37582 Closing
+[Tue May 12 17:16:03 2026] 127.0.0.1:37596 Accepted
+[Tue May 12 17:16:04 2026] 127.0.0.1:37596 [200]: GET /app.js
+[Tue May 12 17:16:04 2026] 127.0.0.1:37596 Closing
+[Tue May 12 17:16:11 2026] 127.0.0.1:35012 Accepted
+[Tue May 12 17:16:11 2026] 127.0.0.1:35012 [200]: GET /admin_settings.php
+[Tue May 12 17:16:11 2026] 127.0.0.1:35012 Closing
+[Tue May 12 17:16:11 2026] 127.0.0.1:35014 Accepted
+[Tue May 12 17:16:11 2026] 127.0.0.1:35014 [200]: GET /styles.css
+[Tue May 12 17:16:11 2026] 127.0.0.1:35024 Accepted
+[Tue May 12 17:16:11 2026] 127.0.0.1:35024 [200]: GET /app.js
+[Tue May 12 17:16:11 2026] 127.0.0.1:35014 Closing
+[Tue May 12 17:16:11 2026] 127.0.0.1:35024 Closing
+[Tue May 12 17:16:15 2026] 127.0.0.1:35032 Accepted
+[Tue May 12 17:16:15 2026] 127.0.0.1:35032 [200]: POST /admin_settings.php
+[Tue May 12 17:16:15 2026] 127.0.0.1:35032 Closing
+[Tue May 12 17:16:15 2026] 127.0.0.1:35044 Accepted
+[Tue May 12 17:16:16 2026] 127.0.0.1:35044 [200]: GET /styles.css
+[Tue May 12 17:16:16 2026] 127.0.0.1:35044 Closing
+[Tue May 12 17:16:16 2026] 127.0.0.1:35056 Accepted
+[Tue May 12 17:16:16 2026] 127.0.0.1:35056 [200]: GET /app.js
+[Tue May 12 17:16:16 2026] 127.0.0.1:35056 Closing
+[Tue May 12 17:16:24 2026] 127.0.0.1:48164 Accepted
+[Tue May 12 17:16:24 2026] 127.0.0.1:48164 [302]: GET /logout.php
+[Tue May 12 17:16:24 2026] 127.0.0.1:48164 Closing
+[Tue May 12 17:16:24 2026] 127.0.0.1:48178 Accepted
+[Tue May 12 17:16:24 2026] 127.0.0.1:48178 [200]: GET /index.php
+[Tue May 12 17:16:24 2026] 127.0.0.1:48178 Closing
+[Tue May 12 17:16:24 2026] 127.0.0.1:48188 Accepted
+[Tue May 12 17:16:24 2026] 127.0.0.1:48188 [200]: GET /styles.css
+[Tue May 12 17:16:24 2026] 127.0.0.1:48188 Closing
+[Tue May 12 17:16:24 2026] 127.0.0.1:48196 Accepted
+[Tue May 12 17:16:24 2026] 127.0.0.1:48196 [200]: GET /app.js
+[Tue May 12 17:16:24 2026] 127.0.0.1:48196 Closing
+[Tue May 12 17:16:38 2026] 127.0.0.1:35368 Accepted
+[Tue May 12 17:16:38 2026] 127.0.0.1:35368 [200]: GET /register.php
+[Tue May 12 17:16:38 2026] 127.0.0.1:35368 Closing
+[Tue May 12 17:16:38 2026] 127.0.0.1:35382 Accepted
+[Tue May 12 17:16:38 2026] 127.0.0.1:35382 [200]: GET /styles.css
+[Tue May 12 17:16:38 2026] 127.0.0.1:35382 Closing
+[Tue May 12 17:16:38 2026] 127.0.0.1:35384 Accepted
+[Tue May 12 17:16:38 2026] 127.0.0.1:35384 [200]: GET /app.js
+[Tue May 12 17:16:38 2026] 127.0.0.1:35384 Closing
+[Tue May 12 17:17:07 2026] 127.0.0.1:54824 Accepted
+[Tue May 12 17:17:07 2026] 127.0.0.1:54824 [302]: POST /register.php
+[Tue May 12 17:17:07 2026] 127.0.0.1:54824 Closing
+[Tue May 12 17:17:07 2026] 127.0.0.1:54838 Accepted
+[Tue May 12 17:17:08 2026] 127.0.0.1:54838 [200]: GET /login.php
+[Tue May 12 17:17:08 2026] 127.0.0.1:54838 Closing
+[Tue May 12 17:17:08 2026] 127.0.0.1:51618 Accepted
+[Tue May 12 17:17:08 2026] 127.0.0.1:51634 Accepted
+[Tue May 12 17:17:08 2026] 127.0.0.1:51634 [200]: GET /styles.css
+[Tue May 12 17:17:08 2026] 127.0.0.1:51634 Closing
+[Tue May 12 17:17:08 2026] 127.0.0.1:51618 [200]: GET /app.js
+[Tue May 12 17:17:08 2026] 127.0.0.1:51618 Closing
+[Tue May 12 17:17:52 2026] 127.0.0.1:51768 Accepted
+[Tue May 12 17:17:52 2026] 127.0.0.1:51770 Accepted
+[Tue May 12 17:17:52 2026] 127.0.0.1:51768 [200]: POST /login.php
+[Tue May 12 17:17:52 2026] 127.0.0.1:51768 Closing
+[Tue May 12 17:17:52 2026] 127.0.0.1:51770 [200]: GET /styles.css
+[Tue May 12 17:17:52 2026] 127.0.0.1:51770 Closing
+[Tue May 12 17:17:52 2026] 127.0.0.1:51774 Accepted
+[Tue May 12 17:17:52 2026] 127.0.0.1:51774 [200]: GET /app.js
+[Tue May 12 17:17:52 2026] 127.0.0.1:51774 Closing
+[Tue May 12 17:18:39 2026] 127.0.0.1:52266 Accepted
+[Tue May 12 17:18:39 2026] 127.0.0.1:52266 [200]: POST /login.php
+[Tue May 12 17:18:39 2026] 127.0.0.1:52266 Closing
+[Tue May 12 17:18:39 2026] 127.0.0.1:52276 Accepted
+[Tue May 12 17:18:39 2026] 127.0.0.1:52276 [200]: GET /styles.css
+[Tue May 12 17:18:39 2026] 127.0.0.1:52276 Closing
+[Tue May 12 17:18:39 2026] 127.0.0.1:52292 Accepted
+[Tue May 12 17:18:39 2026] 127.0.0.1:52292 [200]: GET /app.js
+[Tue May 12 17:18:39 2026] 127.0.0.1:52292 Closing
+[Tue May 12 17:18:41 2026] 127.0.0.1:52302 Accepted
+[Tue May 12 17:18:41 2026] 127.0.0.1:52302 [200]: GET /forgot_password.php
+[Tue May 12 17:18:41 2026] 127.0.0.1:52302 Closing
+[Tue May 12 17:18:41 2026] 127.0.0.1:52314 Accepted
+[Tue May 12 17:18:41 2026] 127.0.0.1:52314 [200]: GET /styles.css
+[Tue May 12 17:18:41 2026] 127.0.0.1:52314 Closing
+[Tue May 12 17:18:41 2026] 127.0.0.1:52324 Accepted
+[Tue May 12 17:18:41 2026] 127.0.0.1:52324 [200]: GET /app.js
+[Tue May 12 17:18:41 2026] 127.0.0.1:52324 Closing
+[Tue May 12 17:18:49 2026] 127.0.0.1:54496 Accepted
+[Tue May 12 17:18:49 2026] 127.0.0.1:54496 [200]: POST /forgot_password.php
+[Tue May 12 17:18:49 2026] 127.0.0.1:54496 Closing
+[Tue May 12 17:18:49 2026] 127.0.0.1:54512 Accepted
+[Tue May 12 17:18:49 2026] 127.0.0.1:54512 [200]: GET /styles.css
+[Tue May 12 17:18:49 2026] 127.0.0.1:54512 Closing
+[Tue May 12 17:18:50 2026] 127.0.0.1:54514 Accepted
+[Tue May 12 17:18:50 2026] 127.0.0.1:54514 [200]: GET /app.js
+[Tue May 12 17:18:50 2026] 127.0.0.1:54514 Closing
+[Tue May 12 17:18:58 2026] 127.0.0.1:41566 Accepted
+[Tue May 12 17:18:58 2026] 127.0.0.1:41566 [200]: GET /reset_password.php?token=dd49f130d0825436f70071b12a2121669745c2cb24dd5d49214a6e6454a51dda
+[Tue May 12 17:18:58 2026] 127.0.0.1:41566 Closing
+[Tue May 12 17:18:58 2026] 127.0.0.1:41574 Accepted
+[Tue May 12 17:18:58 2026] 127.0.0.1:41574 [200]: GET /styles.css
+[Tue May 12 17:18:58 2026] 127.0.0.1:41574 Closing
+[Tue May 12 17:18:58 2026] 127.0.0.1:41588 Accepted
+[Tue May 12 17:18:58 2026] 127.0.0.1:41588 [200]: GET /app.js
+[Tue May 12 17:18:58 2026] 127.0.0.1:41588 Closing
+[Tue May 12 17:19:34 2026] 127.0.0.1:51890 Accepted
+[Tue May 12 17:19:34 2026] 127.0.0.1:51890 [200]: POST /reset_password.php?token=dd49f130d0825436f70071b12a2121669745c2cb24dd5d49214a6e6454a51dda
+[Tue May 12 17:19:34 2026] 127.0.0.1:51890 Closing
+[Tue May 12 17:19:34 2026] 127.0.0.1:51892 Accepted
+[Tue May 12 17:19:34 2026] 127.0.0.1:51892 [200]: GET /styles.css
+[Tue May 12 17:19:34 2026] 127.0.0.1:51892 Closing
+[Tue May 12 17:19:34 2026] 127.0.0.1:51906 Accepted
+[Tue May 12 17:19:34 2026] 127.0.0.1:51906 [200]: GET /app.js
+[Tue May 12 17:19:34 2026] 127.0.0.1:51906 Closing
+[Tue May 12 17:19:42 2026] 127.0.0.1:42350 Accepted
+[Tue May 12 17:19:43 2026] 127.0.0.1:42350 [200]: GET /login.php
+[Tue May 12 17:19:43 2026] 127.0.0.1:42350 Closing
+[Tue May 12 17:19:43 2026] 127.0.0.1:42362 Accepted
+[Tue May 12 17:19:43 2026] 127.0.0.1:42362 [200]: GET /styles.css
+[Tue May 12 17:19:43 2026] 127.0.0.1:42362 Closing
+[Tue May 12 17:19:43 2026] 127.0.0.1:42374 Accepted
+[Tue May 12 17:19:43 2026] 127.0.0.1:42374 [200]: GET /app.js
+[Tue May 12 17:19:43 2026] 127.0.0.1:42374 Closing
+[Tue May 12 17:19:51 2026] 127.0.0.1:50470 Accepted
+[Tue May 12 17:19:51 2026] 127.0.0.1:50478 Accepted
+[Tue May 12 17:19:51 2026] 127.0.0.1:50470 [302]: POST /login.php
+[Tue May 12 17:19:51 2026] 127.0.0.1:50470 Closing
+[Tue May 12 17:19:51 2026] 127.0.0.1:50478 [200]: GET /index.php
+[Tue May 12 17:19:51 2026] 127.0.0.1:50478 Closing
+[Tue May 12 17:19:51 2026] 127.0.0.1:50494 Accepted
+[Tue May 12 17:19:51 2026] 127.0.0.1:50494 [200]: GET /styles.css
+[Tue May 12 17:19:51 2026] 127.0.0.1:50494 Closing
+[Tue May 12 17:19:51 2026] 127.0.0.1:50500 Accepted
+[Tue May 12 17:19:51 2026] 127.0.0.1:50500 [200]: GET /app.js
+[Tue May 12 17:19:51 2026] 127.0.0.1:50500 Closing
+[Tue May 12 17:20:46 2026] 127.0.0.1:52562 Accepted
+[Tue May 12 17:20:46 2026] 127.0.0.1:52562 [302]: GET /logout.php
+[Tue May 12 17:20:46 2026] 127.0.0.1:52562 Closing
+[Tue May 12 17:20:46 2026] 127.0.0.1:52566 Accepted
+[Tue May 12 17:20:46 2026] 127.0.0.1:52566 [200]: GET /index.php
+[Tue May 12 17:20:46 2026] 127.0.0.1:52566 Closing
+[Tue May 12 17:20:46 2026] 127.0.0.1:52580 Accepted
+[Tue May 12 17:20:46 2026] 127.0.0.1:52580 [200]: GET /styles.css
+[Tue May 12 17:20:46 2026] 127.0.0.1:52580 Closing
+[Tue May 12 17:20:46 2026] 127.0.0.1:52592 Accepted
+[Tue May 12 17:20:46 2026] 127.0.0.1:52592 [200]: GET /app.js
+[Tue May 12 17:20:46 2026] 127.0.0.1:52592 Closing
+[Tue May 12 17:20:51 2026] 127.0.0.1:35708 Accepted
+[Tue May 12 17:20:51 2026] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: p.pseudo in /home/khadijatou/SafeSpace/public/feed.php:5
+Stack trace:
+#0 /home/khadijatou/SafeSpace/public/feed.php(5): PDO->query()
+#1 {main}
+  thrown in /home/khadijatou/SafeSpace/public/feed.php on line 5
+[Tue May 12 17:20:51 2026] 127.0.0.1:35708 [500]: GET /feed.php - Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: p.pseudo in /home/khadijatou/SafeSpace/public/feed.php:5
+Stack trace:
+#0 /home/khadijatou/SafeSpace/public/feed.php(5): PDO->query()
+#1 {main}
+  thrown in /home/khadijatou/SafeSpace/public/feed.php on line 5
+[Tue May 12 17:20:51 2026] 127.0.0.1:35708 Closing
+[Tue May 12 17:20:51 2026] 127.0.0.1:35722 Accepted
+[Tue May 12 17:20:51 2026] 127.0.0.1:35722 [200]: GET /styles.css
+[Tue May 12 17:20:51 2026] 127.0.0.1:35722 Closing
+[Tue May 12 17:20:53 2026] 127.0.0.1:35724 Accepted
+[Tue May 12 17:20:54 2026] 127.0.0.1:35724 [200]: GET /pricing.php
+[Tue May 12 17:20:54 2026] 127.0.0.1:35724 Closing
+[Tue May 12 17:20:54 2026] 127.0.0.1:35736 Accepted
+[Tue May 12 17:20:54 2026] 127.0.0.1:35736 [200]: GET /styles.css
+[Tue May 12 17:20:54 2026] 127.0.0.1:35736 Closing
+[Tue May 12 17:20:54 2026] 127.0.0.1:35742 Accepted
+[Tue May 12 17:20:54 2026] 127.0.0.1:35742 [200]: GET /app.js
+[Tue May 12 17:20:54 2026] 127.0.0.1:35742 Closing
+[Tue May 12 17:23:55 2026] 127.0.0.1:45620 Accepted
+[Tue May 12 17:23:56 2026] 127.0.0.1:45620 [200]: GET /login.php
+[Tue May 12 17:23:56 2026] 127.0.0.1:45620 Closing
+[Tue May 12 17:23:56 2026] 127.0.0.1:45626 Accepted
+[Tue May 12 17:23:56 2026] 127.0.0.1:45626 [200]: GET /styles.css
+[Tue May 12 17:23:56 2026] 127.0.0.1:45626 Closing
+[Tue May 12 17:23:56 2026] 127.0.0.1:45636 Accepted
+[Tue May 12 17:23:56 2026] 127.0.0.1:45636 [200]: GET /app.js
+[Tue May 12 17:23:56 2026] 127.0.0.1:45636 Closing
+[Tue May 12 17:24:16 2026] 127.0.0.1:59890 Accepted
+[Tue May 12 17:24:16 2026] 127.0.0.1:59890 [200]: GET /register.php
+[Tue May 12 17:24:16 2026] 127.0.0.1:59890 Closing
+[Tue May 12 17:24:16 2026] 127.0.0.1:59898 Accepted
+[Tue May 12 17:24:16 2026] 127.0.0.1:59908 Accepted
+[Tue May 12 17:24:16 2026] 127.0.0.1:59898 [200]: GET /styles.css
+[Tue May 12 17:24:16 2026] 127.0.0.1:59908 [200]: GET /app.js
+[Tue May 12 17:24:16 2026] 127.0.0.1:59898 Closing
+[Tue May 12 17:24:16 2026] 127.0.0.1:59908 Closing
+[Tue May 12 17:24:47 2026] 127.0.0.1:53596 Accepted
+[Tue May 12 17:24:47 2026] 127.0.0.1:53596 [200]: POST /register.php
+[Tue May 12 17:24:47 2026] 127.0.0.1:53596 Closing
+[Tue May 12 17:24:47 2026] 127.0.0.1:53598 Accepted
+[Tue May 12 17:24:47 2026] 127.0.0.1:53598 [200]: GET /styles.css
+[Tue May 12 17:24:47 2026] 127.0.0.1:53598 Closing
+[Tue May 12 17:24:47 2026] 127.0.0.1:53608 Accepted
+[Tue May 12 17:24:47 2026] 127.0.0.1:53608 [200]: GET /app.js
+[Tue May 12 17:24:47 2026] 127.0.0.1:53608 Closing
+[Tue May 12 17:25:14 2026] 127.0.0.1:59480 Accepted
+[Tue May 12 17:25:14 2026] 127.0.0.1:59480 [200]: POST /register.php
+[Tue May 12 17:25:14 2026] 127.0.0.1:59480 Closing
+[Tue May 12 17:25:15 2026] 127.0.0.1:59488 Accepted
+[Tue May 12 17:25:15 2026] 127.0.0.1:59488 [200]: GET /styles.css
+[Tue May 12 17:25:15 2026] 127.0.0.1:59488 Closing
+[Tue May 12 17:25:15 2026] 127.0.0.1:59496 Accepted
+[Tue May 12 17:25:15 2026] 127.0.0.1:59496 [200]: GET /app.js
+[Tue May 12 17:25:15 2026] 127.0.0.1:59496 Closing
+[Tue May 12 17:25:59 2026] 127.0.0.1:35438 Accepted
+[Tue May 12 17:25:59 2026] 127.0.0.1:35438 [302]: POST /register.php
+[Tue May 12 17:25:59 2026] 127.0.0.1:35438 Closing
+[Tue May 12 17:25:59 2026] 127.0.0.1:35450 Accepted
+[Tue May 12 17:25:59 2026] 127.0.0.1:35450 [200]: GET /login.php
+[Tue May 12 17:25:59 2026] 127.0.0.1:35450 Closing
+[Tue May 12 17:25:59 2026] 127.0.0.1:35456 Accepted
+[Tue May 12 17:25:59 2026] 127.0.0.1:35456 [200]: GET /app.js
+[Tue May 12 17:25:59 2026] 127.0.0.1:35456 Closing
+[Tue May 12 17:25:59 2026] 127.0.0.1:35458 Accepted
+[Tue May 12 17:25:59 2026] 127.0.0.1:35458 [200]: GET /styles.css
+[Tue May 12 17:25:59 2026] 127.0.0.1:35458 Closing
+[Tue May 12 17:28:07 2026] 127.0.0.1:41310 Accepted
+[Tue May 12 17:28:07 2026] 127.0.0.1:41310 [302]: POST /login.php
+[Tue May 12 17:28:07 2026] 127.0.0.1:41310 Closing
+[Tue May 12 17:28:07 2026] 127.0.0.1:41324 Accepted
+[Tue May 12 17:28:07 2026] 127.0.0.1:41324 [200]: GET /index.php
+[Tue May 12 17:28:07 2026] 127.0.0.1:41324 Closing
+[Tue May 12 17:28:07 2026] 127.0.0.1:41328 Accepted
+[Tue May 12 17:28:07 2026] 127.0.0.1:41328 [200]: GET /styles.css
+[Tue May 12 17:28:07 2026] 127.0.0.1:41328 Closing
+[Tue May 12 17:28:07 2026] 127.0.0.1:41340 Accepted
+[Tue May 12 17:28:07 2026] 127.0.0.1:41340 [200]: GET /app.js
+[Tue May 12 17:28:07 2026] 127.0.0.1:41340 Closing
+[Tue May 12 17:40:26 2026] 127.0.0.1:43784 Accepted
+[Tue May 12 17:40:26 2026] 127.0.0.1:43784 [200]: HEAD /pricing.php
+[Tue May 12 17:40:26 2026] 127.0.0.1:43784 Closing
+[Tue May 12 17:40:26 2026] 127.0.0.1:43794 Accepted
+[Tue May 12 17:40:26 2026] 127.0.0.1:43794 [302]: HEAD /subscribe.php
+[Tue May 12 17:40:26 2026] 127.0.0.1:43794 Closing
+[Tue May 12 17:46:22 2026] 127.0.0.1:39252 Accepted
+[Tue May 12 17:46:23 2026] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: p.pseudo in /home/khadijatou/SafeSpace/public/feed.php:5
+Stack trace:
+#0 /home/khadijatou/SafeSpace/public/feed.php(5): PDO->query()
+#1 {main}
+  thrown in /home/khadijatou/SafeSpace/public/feed.php on line 5
+[Tue May 12 17:46:23 2026] 127.0.0.1:39252 [500]: GET /feed.php - Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: p.pseudo in /home/khadijatou/SafeSpace/public/feed.php:5
+Stack trace:
+#0 /home/khadijatou/SafeSpace/public/feed.php(5): PDO->query()
+#1 {main}
+  thrown in /home/khadijatou/SafeSpace/public/feed.php on line 5
+[Tue May 12 17:46:23 2026] 127.0.0.1:39252 Closing
+[Tue May 12 17:46:23 2026] 127.0.0.1:39260 Accepted
+[Tue May 12 17:46:23 2026] 127.0.0.1:39260 [200]: GET /styles.css
+[Tue May 12 17:46:23 2026] 127.0.0.1:39260 Closing
+[Tue May 12 17:46:26 2026] 127.0.0.1:39270 Accepted
+[Tue May 12 17:46:26 2026] 127.0.0.1:39270 [200]: GET /share.php
+[Tue May 12 17:46:26 2026] 127.0.0.1:39270 Closing
+[Tue May 12 17:46:26 2026] 127.0.0.1:39286 Accepted
+[Tue May 12 17:46:26 2026] 127.0.0.1:39286 [200]: GET /styles.css
+[Tue May 12 17:46:26 2026] 127.0.0.1:39286 Closing
+[Tue May 12 17:46:26 2026] 127.0.0.1:39302 Accepted
+[Tue May 12 17:46:26 2026] 127.0.0.1:39302 [200]: GET /app.js
+[Tue May 12 17:46:26 2026] 127.0.0.1:39302 Closing

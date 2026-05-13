@@ -1,0 +1,181 @@
+<svg width="100%" viewBox="0 0 680 820" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>SafeSpace — Scène humaine hero</title>
+  <desc>Deux silhouettes claires sur fond sombre — une personne assise en détresse, une autre debout qui lui tend la main, reliées par une lumière rose dorée.</desc>
+
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#1a0820"/>
+      <stop offset="60%" stop-color="#0d0612"/>
+      <stop offset="100%" stop-color="#060408"/>
+    </radialGradient>
+    <radialGradient id="aura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff6b9d" stop-opacity="0.55"/>
+      <stop offset="45%" stop-color="#ff3e7f" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#0d0612" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="groundglow" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#ff6b9d" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0d0612" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="handglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffb3c6" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#ff4560" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#0d0612" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="heartglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff9aba" stop-opacity="0.7"/>
+      <stop offset="60%" stop-color="#ff3e7f" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#0d0612" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="groundgrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a0818"/>
+      <stop offset="100%" stop-color="#060408"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#060408" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#060408" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="beamC" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff6b9d" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#ff6b9d" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="cp"><rect width="680" height="820"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#cp)">
+
+    <!-- ── FOND ── -->
+    <rect width="680" height="820" fill="url(#sky)"/>
+    <ellipse cx="340" cy="430" rx="300" ry="240" fill="url(#aura)"/>
+    <polygon points="340,100 220,660 460,660" fill="url(#beamC)" opacity="0.5"/>
+
+    <!-- ── SOL ── -->
+    <rect x="0" y="650" width="680" height="170" fill="url(#groundgrad)"/>
+    <ellipse cx="340" cy="652" rx="330" ry="18" fill="url(#groundglow)"/>
+    <line x1="0" y1="652" x2="680" y2="652" stroke="#ff6b9d" stroke-width="0.8" stroke-opacity="0.25"/>
+
+    <!-- ── ÉTOILES ── -->
+    <circle cx="55" cy="55" r="1.2" fill="#fff0f5" fill-opacity="0.7"/>
+    <circle cx="130" cy="28" r="0.9" fill="#fff0f5" fill-opacity="0.5"/>
+    <circle cx="220" cy="72" r="1.1" fill="#fff0f5" fill-opacity="0.6"/>
+    <circle cx="305" cy="40" r="1.4" fill="#fff0f5" fill-opacity="0.8"/>
+    <circle cx="410" cy="22" r="0.9" fill="#fff0f5" fill-opacity="0.55"/>
+    <circle cx="475" cy="65" r="1.1" fill="#fff0f5" fill-opacity="0.65"/>
+    <circle cx="548" cy="38" r="1.3" fill="#fff0f5" fill-opacity="0.7"/>
+    <circle cx="628" cy="85" r="0.8" fill="#fff0f5" fill-opacity="0.5"/>
+    <circle cx="648" cy="50" r="1" fill="#fff0f5" fill-opacity="0.6"/>
+    <circle cx="88" cy="135" r="0.8" fill="#fff0f5" fill-opacity="0.4"/>
+    <circle cx="590" cy="125" r="1" fill="#fff0f5" fill-opacity="0.45"/>
+
+    <!-- ══════════════════════════════════
+         PERSONNE A — Assise, tête baissée (gauche)
+    ══════════════════════════════════ -->
+    <ellipse cx="232" cy="654" rx="38" ry="7" fill="#ff3e7f" fill-opacity="0.12"/>
+
+    <!-- Jambe gauche étirée -->
+    <path d="M210,645 Q205,630 208,610 Q210,598 220,595"
+          fill="none" stroke="#5a2040" stroke-width="20" stroke-linecap="round"/>
+    <!-- Jambe droite repliée -->
+    <path d="M248,642 Q256,620 252,600 Q248,588 238,585"
+          fill="none" stroke="#5a2040" stroke-width="20" stroke-linecap="round"/>
+    <!-- Torse penché -->
+    <path d="M212,598 Q208,570 214,548 Q220,530 232,524 Q244,518 252,528 Q260,540 256,562 Q252,582 246,598 Z"
+          fill="#5a2040"/>
+    <!-- Bras gauche autour des genoux -->
+    <path d="M214,570 Q196,575 192,600 Q190,618 204,634"
+          fill="none" stroke="#4e1c38" stroke-width="17" stroke-linecap="round"/>
+    <!-- Bras droit tendu vers la personne debout -->
+    <path d="M252,565 Q268,560 278,568 Q288,576 285,588"
+          fill="none" stroke="#4e1c38" stroke-width="16" stroke-linecap="round"/>
+    <!-- Cou -->
+    <rect x="227" y="506" width="14" height="22" rx="7" fill="#5a2040"/>
+    <!-- Tête -->
+    <ellipse cx="234" cy="494" rx="24" ry="26" fill="#5a2040"/>
+    <!-- Cheveux -->
+    <path d="M210,488 Q212,468 234,464 Q256,462 258,484 Q248,470 234,472 Q218,474 210,488Z" fill="#3a1028"/>
+
+    <!-- ══════════════════════════════════
+         PERSONNE B — Debout, bras tendu (droite)
+    ══════════════════════════════════ -->
+    <ellipse cx="430" cy="654" rx="32" ry="7" fill="#ff3e7f" fill-opacity="0.1"/>
+
+    <!-- Jambe gauche -->
+    <path d="M412,650 Q410,618 414,590"
+          fill="none" stroke="#4a1a35" stroke-width="20" stroke-linecap="round"/>
+    <!-- Jambe droite -->
+    <path d="M438,650 Q440,618 436,590"
+          fill="none" stroke="#4a1a35" stroke-width="20" stroke-linecap="round"/>
+    <!-- Torse -->
+    <path d="M406,592 Q402,555 408,530 Q414,510 428,505 Q442,500 450,516 Q456,532 452,558 Q448,578 440,592 Z"
+          fill="#4a1a35"/>
+    <!-- Bras droit tendu vers personne assise -->
+    <path d="M408,535 Q385,530 360,535 Q335,540 312,552 Q298,558 290,566"
+          fill="none" stroke="#3e1430" stroke-width="17" stroke-linecap="round"/>
+    <!-- Bras gauche naturel -->
+    <path d="M448,538 Q466,542 472,565 Q476,582 468,605"
+          fill="none" stroke="#3e1430" stroke-width="16" stroke-linecap="round"/>
+    <!-- Cou -->
+    <rect x="422" y="487" width="14" height="22" rx="7" fill="#4a1a35"/>
+    <!-- Tête -->
+    <ellipse cx="429" cy="474" rx="23" ry="25" fill="#4a1a35"/>
+    <!-- Cheveux -->
+    <path d="M406,470 Q408,450 429,446 Q450,444 452,466 Q442,453 429,455 Q414,457 406,470Z" fill="#300e24"/>
+
+    <!-- ══════════════════════════════════
+         POINT DE CONNEXION — Mains qui se rejoignent
+    ══════════════════════════════════ -->
+    <ellipse cx="290" cy="566" rx="28" ry="16" fill="url(#handglow)"/>
+    <circle cx="288" cy="566" r="9" fill="#7a3058"/>
+    <circle cx="298" cy="560" r="6" fill="#7a3058"/>
+    <circle cx="300" cy="570" r="5" fill="#7a3058"/>
+    <circle cx="278" cy="568" r="9" fill="#6a2848"/>
+    <circle cx="268" cy="562" r="6" fill="#6a2848"/>
+    <circle cx="266" cy="572" r="5" fill="#6a2848"/>
+    <circle cx="284" cy="566" r="5" fill="#ffb3c6" fill-opacity="0.9"/>
+    <circle cx="284" cy="566" r="9" fill="#ff6b9d" fill-opacity="0.3"/>
+
+    <!-- ══════════════════════════════════
+         CŒUR FLOTTANT — au-dessus de la connexion
+    ══════════════════════════════════ -->
+    <ellipse cx="340" cy="390" rx="65" ry="65" fill="url(#heartglow)" opacity="0.6"/>
+    <path d="M340,418 C308,396 290,370 298,348 C305,328 326,324 340,340 C354,324 375,328 382,348 C390,370 372,396 340,418Z"
+          fill="#ff4560" fill-opacity="0.8"/>
+    <path d="M320,354 Q324,345 334,348" fill="none" stroke="#ffccd5" stroke-width="2.5" stroke-linecap="round" stroke-opacity="0.7"/>
+
+    <!-- Petits cœurs qui montent -->
+    <path d="M300,310 C294,302 290,293 294,287 C297,282 304,281 307,286 C310,281 317,282 320,287 C324,293 320,302 307,310Z"
+          fill="#ff7eb3" fill-opacity="0.5"/>
+    <path d="M376,288 C371,281 368,273 372,268 C374,264 380,263 383,267 C386,263 392,264 394,268 C398,273 395,281 383,288Z"
+          fill="#ffa07a" fill-opacity="0.4"/>
+
+    <!-- Cercles d'énergie -->
+    <circle cx="340" cy="390" r="80" fill="none" stroke="#ff6b9d" stroke-width="0.7" stroke-opacity="0.22"/>
+    <circle cx="340" cy="390" r="115" fill="none" stroke="#ff6b9d" stroke-width="0.5" stroke-opacity="0.14"/>
+    <circle cx="340" cy="390" r="155" fill="none" stroke="#ffa07a" stroke-width="0.4" stroke-opacity="0.09"/>
+
+    <!-- Pétales flottants -->
+    <ellipse cx="265" cy="460" rx="5" ry="8" fill="#ff9aba" fill-opacity="0.4" transform="rotate(-25,265,460)"/>
+    <ellipse cx="310" cy="420" rx="4" ry="7" fill="#ffccd5" fill-opacity="0.35" transform="rotate(15,310,420)"/>
+    <ellipse cx="375" cy="440" rx="5" ry="8" fill="#ff7eb3" fill-opacity="0.32" transform="rotate(-10,375,440)"/>
+    <ellipse cx="408" cy="410" rx="4" ry="6" fill="#ffa07a" fill-opacity="0.3" transform="rotate(30,408,410)"/>
+
+    <!-- ══════════════════════════════════
+         TEXTE BAS DE PAGE
+    ══════════════════════════════════ -->
+    <rect x="36" y="688" width="76" height="22" rx="11" fill="#ff3e7f" fill-opacity="0.1" stroke="#ff7eb3" stroke-width="0.5" stroke-opacity="0.4"/>
+    <text x="74" y="704" font-family="Arial, sans-serif" font-size="9.5" fill="#ff9aba" text-anchor="middle" letter-spacing="1.8">PRIVATE</text>
+    <text x="124" y="704" font-family="Arial, sans-serif" font-size="11" fill="#7a5060">·</text>
+    <rect x="132" y="688" width="70" height="22" rx="11" fill="#ff4560" fill-opacity="0.1" stroke="#ffa07a" stroke-width="0.5" stroke-opacity="0.4"/>
+    <text x="167" y="704" font-family="Arial, sans-serif" font-size="9.5" fill="#ffb898" text-anchor="middle" letter-spacing="1.8">SECURE</text>
+    <text x="214" y="704" font-family="Arial, sans-serif" font-size="11" fill="#7a5060">·</text>
+    <rect x="222" y="688" width="64" height="22" rx="11" fill="#ffa07a" fill-opacity="0.1" stroke="#ffa07a" stroke-width="0.5" stroke-opacity="0.4"/>
+    <text x="254" y="704" font-family="Arial, sans-serif" font-size="9.5" fill="#ffb898" text-anchor="middle" letter-spacing="1.8">HUMAN</text>
+
+    <text x="36" y="740" font-family="'Arial Black', Impact, sans-serif" font-size="40" font-weight="900" fill="#ffffff" fill-opacity="0.96" letter-spacing="-1">SAFESPACE</text>
+    <text x="36" y="764" font-family="Georgia, serif" font-size="14.5" fill="#c09098" font-style="italic">Transforme ta vulnérabilité en force collective.</text>
+
+    <!-- Fondu bas -->
+    <rect x="0" y="745" width="680" height="75" fill="url(#fade)"/>
+
+  </g>
+</svg>
